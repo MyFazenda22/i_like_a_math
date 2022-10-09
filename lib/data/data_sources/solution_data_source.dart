@@ -5,7 +5,6 @@ import 'package:i_like_a_math/core/error/exception.dart';
 import 'package:i_like_a_math/data/models/solution_model.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
-
 abstract class SolutionDataSource {
   Future<SolutionModel> getSolution(int digit, int number);
 }
