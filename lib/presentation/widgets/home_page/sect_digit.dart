@@ -54,7 +54,6 @@ class SectionDigit extends StatelessWidget {
         Expanded(flex: 2,
           child: Container(
             padding: const EdgeInsets.only(bottom: 30),
-//            color: Colors.green,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

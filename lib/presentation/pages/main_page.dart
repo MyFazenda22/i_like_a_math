@@ -15,44 +15,33 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      // create: (_) => DigitAndNumberCubit(1, 1, 2, 3),
       create: (context) {
         (sl<SolutionDataSource>() as SolutionDataSourceImpl).setContext(context: context);
-        // return sl<DigitAndNumberCubit>();
-        // final dataSource = SolutionDataSourceImpl()
-        //       ..setContext(context: context);
-
-        // SolutionRepository solutionRepository = sl<SolutionRepository>();
-        // final solutionRepository = SolutionRepositoryImpl(dataSource: dataSourceImpl);
-        // final getSolution = GetSolution(solutionRepository);
-        // final getSolution = sl<GetSolution>();
-        // return DigitAndNumberCubit(getSolution: getSolution);
         return sl<DigitAndNumberCubit>();
       },
-      // dispose: (context, value) => value.close(),
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
+          children: [
             const Expanded(flex: 28,
               child: SectionTitle(),
             ),
             const Padding(
-              padding: EdgeInsets.fromLTRB(16, 0, 16, 0),
+              padding: EdgeInsets.symmetric(horizontal: 16),
               child: Divider(height: 10, thickness: 4, color: Color(0xFFCCCC66)),
             ),
             const Expanded(flex: 38,
               child: SectionDigit(),
             ),
             const Padding(
-              padding: EdgeInsets.fromLTRB(16, 0, 16, 0),
+              padding: EdgeInsets.symmetric(horizontal: 16),
               child: Divider(height: 10, thickness: 4, color: Color(0xFFCCCC66)),
             ),
             const Expanded(flex: 52,
               child: SectionNumber(),
             ),
             const Padding(
-              padding: EdgeInsets.fromLTRB(16, 0, 16, 0),
+              padding: EdgeInsets.symmetric(horizontal: 16),
               child: Divider(height: 10, thickness: 4, color: Color(0xFFCCCC66)),
             ),
             Expanded(flex: 58,

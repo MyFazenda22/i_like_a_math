@@ -26,7 +26,6 @@ class SectionSolution extends StatelessWidget {
               return BlocBuilder<DigitAndNumberCubit, DigitAndNumberState>(
                 builder: (context, state) {
                   btnShareText = "shareSectSolution".tr(args: ["${state.solutionEntity.number}", "${state.solutionEntity.digit}"]);
-               // btnShareText = "Это выражение равное числу ${state.solutionEntity.number} использует только цифру ${state.solutionEntity.digit}";
                   return RepaintBoundary(
                     key: previewContainer,
                     child: SizedBox(

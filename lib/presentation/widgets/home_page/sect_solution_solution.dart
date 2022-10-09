@@ -32,8 +32,6 @@ class _SolutionState extends State<Solution> with SingleTickerProviderStateMixin
 
   @override
   void initState() {
-    // audioPlayer.setSourceAsset('sfx/snap_wavX.mp3');
-
     final fontScale = _calcFullTextFontScale(widget.solutionElems, widget.parentSize);
 
     textStyleNorm =  TextStyle(fontFamily: 'Rabiohead', fontSize: fontScale * fontSizeNorm  * 0.95, color: Colors.indigo,);

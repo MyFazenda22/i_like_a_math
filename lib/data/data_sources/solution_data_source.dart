@@ -53,13 +53,13 @@ class SolutionDataSourceImpl extends SolutionDataSource {
       throw DataSourceException("excNumberOutRange".tr(args: ["'$number'"]));
     }
     String solution = mapDigit[number]!;
-    final List<ExpressionElemModel> solutionElems = parseExpressions(solution);
+    final List<ExpressionElemModel> solutionElems = _parseExpressions(solution);
 
     final model = SolutionModel(digit: digit, number: number, solutionElems: solutionElems);
     return model;
   }
 
-  List<ExpressionElemModel> parseExpressions(String solution) {
+  List<ExpressionElemModel> _parseExpressions(String solution) {
     final txt = solution.replaceAll("*", "\u00D7");
 
     var levels = '';

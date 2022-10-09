@@ -32,7 +32,6 @@ class SectionTitle extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(8),
               child: FittedBox(
-                // fit: BoxFit.fitWidth,
                 child: Text(
                     "appTitle".tr().toUpperCase(),
                   textAlign: TextAlign.center,

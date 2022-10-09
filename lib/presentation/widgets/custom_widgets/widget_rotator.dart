@@ -54,15 +54,3 @@ class _WidgetRotatorState extends State<WidgetRotator> with SingleTickerProvider
     );
   }
 }
-
-// /// Combines [first] and [next] into one animation with value
-// /// equal to multiplication of animations values
-// class MultiplyAnimation extends CompoundAnimation<double> {
-//   MultiplyAnimation(
-//       Animation<double> first,
-//       Animation<double> next,
-//       ) : super(first: first, next: next);
-//
-//   @override
-//   double get value => first.value * next.value;
-// }
