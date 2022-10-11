@@ -15,8 +15,8 @@ class SolutionRepositoryImpl implements SolutionRepository {
 
   @override
   Future<Either<Failure, SolutionEntity>> getSolution(int digit, int number) async {
-    return await _getSolution(() {
-      return dataSource.getSolution(digit, number);
+    return await _getSolution(() async {
+      return await dataSource.getSolution(digit, number);
     });
   }
 

@@ -1,6 +1,5 @@
 {
-    "excDigitOutRange": "Digit {} is out of range.",
-    "excNumberOutRange": "Number {} is out of range.",
+    "solutionNotAvailableInDemo": "Solution N/A in demo",
     "noSolution": "no solution",
     "appTitle": "I \u2764 a Math",
     "shareSectTitle": "Surprise your friends with the knowledge of mathematics with '{}'. Get it on GooglePlay: {}",

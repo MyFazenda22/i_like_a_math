@@ -1,5 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:i_like_a_math/presentation/bloc/home_page_digit_state.dart';
 import 'package:i_like_a_math/presentation/widgets/custom_widgets/widget_rotator.dart';
 import 'package:i_like_a_math/presentation/widgets/home_page/sect_number_one_digit.dart';
 import 'package:i_like_a_math/presentation/widgets/custom_widgets/tint_image.dart';
@@ -24,9 +25,9 @@ class SectionNumber extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: const [
-                OneDigitNumber(digitOrder: 1, color: Colors.deepPurpleAccent),
-                OneDigitNumber(digitOrder: 2, color: Colors.deepOrangeAccent),
-                OneDigitNumber(digitOrder: 3, color: Colors.lightBlue),
+                OneDigitNumber(digitPosition: DigitPosition.hundreds, color: Colors.deepPurpleAccent),
+                OneDigitNumber(digitPosition: DigitPosition.tens, color: Colors.deepOrangeAccent),
+                OneDigitNumber(digitPosition: DigitPosition.units, color: Colors.lightBlue),
               ],
             ),
           ),

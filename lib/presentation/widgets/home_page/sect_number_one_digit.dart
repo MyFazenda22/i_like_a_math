@@ -7,28 +7,28 @@ import 'package:i_like_a_math/presentation/widgets/home_page/sect_number_one_dig
 
 class OneDigitNumber extends StatelessWidget {
   final Color color;
-  final int digitOrder;
+  final DigitPosition digitPosition;
 
-  const OneDigitNumber({Key? key, required this.digitOrder, required this.color}) : super(key: key);
+  const OneDigitNumber({Key? key, required this.digitPosition, required this.color}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Expanded(
       child: Stack(
         children: [
-          OneDigitNumberButton(digitOrder: digitOrder, isUp: true,),
+          OneDigitNumberButton(digitPosition: digitPosition, isUp: true,),
           Align(
             alignment: Alignment.center,
             child: BlocBuilder<DigitAndNumberCubit, DigitAndNumberState>(
               builder: (context, state) {
                 return Text(
-                    state.getNumberDigit(digitOrder).toString(),
+                    state.getNumberDigit(digitPosition).toString(),
                     style: const TextStyle(fontFamily: 'Roboto', fontSize: 110)
                 ); //, backgroundColor: Colors.green)
               }
             ),
           ),
-          OneDigitNumberButton(digitOrder: digitOrder, isUp: false,)
+          OneDigitNumberButton(digitPosition: digitPosition, isUp: false,)
         ],
       ),
     );

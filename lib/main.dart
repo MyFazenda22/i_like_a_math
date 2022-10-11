@@ -1,4 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:i_like_a_math/presentation/pages/main_page.dart';
 import 'package:scaffold_gradient_background/scaffold_gradient_background.dart';
@@ -45,7 +46,9 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print("deviceLocale: ${context.deviceLocale.toString()}");
+    if (kDebugMode) {
+      print("deviceLocale: ${context.deviceLocale.toString()}");
+    }
 
     return const ScaffoldGradientBackground (
         gradient: LinearGradient(
@@ -62,7 +65,6 @@ class MyHomePage extends StatelessWidget {
             Color(0xFFFFFFCC),
           ],
         ),
-//      backgroundColor: Colors.yellowAccent,
       appBar: null,
       body: MainPage()
     );

@@ -1,45 +1,48 @@
+// ignore_for_file: curly_braces_in_flow_control_structures
+
 import 'package:equatable/equatable.dart';
 import 'package:i_like_a_math/domain/entities/solution_entity.dart';
 
+enum DigitPosition {
+  hundreds,
+  tens,
+  units
+}
+
 class DigitAndNumberState extends Equatable {
   final SolutionEntity solutionEntity;
+  final bool hasSolution;
 
-  late final int numD1; // 100x
-  late final int numD2; // 10x
-  late final int numD3; // 1x
-
-  DigitAndNumberState({
+  const DigitAndNumberState({
+    required this.hasSolution,
     required this.solutionEntity,
-  }) {
-    int number = solutionEntity.number;
-    numD1 = number ~/ 100;
-    numD2 = (number ~/ 10) %10;
-    numD3 = number % 10;
-  }
+  });
 
-  int getNumberDigit(int digitOrder) {
+  int getNumberDigit(DigitPosition digitOrder) {
     switch(digitOrder) {
-      case 1: return numD1;
-      case 2: return numD2;
-      case 3: return numD3;
+      case DigitPosition.hundreds:  return _getNumberHundreds();
+      case DigitPosition.tens:      return _getNumberTens();
+      case DigitPosition.units:     return _getNumberUnits();
     }
-    throw Exception("A digit order [$digitOrder] of number is out of range.");
   }
 
-  int getNumberWhenChangeDigitInNumber(int digit, int digitOrder) {
-    assert(digitOrder >= 1 && digitOrder <= 3, "A digit order [$digitOrder] of number is out of range.");
+  int getNumberWhenChangeDigitInNumber(int digit, DigitPosition digitPosition) {
     assert(digit >= 0 && digit <= 9, "A digit [$digit] of is out of range.");
-    var num1 = numD1;
-    var num2 = numD2;
-    var num3 = numD3;
+    var numHundreds = _getNumberHundreds();
+    var numTens     = _getNumberTens();
+    var numUnits    = _getNumberUnits();
 
-    switch(digitOrder) {
-      case 1: num1 = digit; break;
-      case 2: num2 = digit; break;
-      case 3: num3 = digit; break;
+    switch(digitPosition) {
+      case DigitPosition.hundreds:  numHundreds = digit; break;
+      case DigitPosition.tens:      numTens     = digit; break;
+      case DigitPosition.units:     numUnits    = digit; break;
     }
-    return num1*100 + num2*10 + num3;
+    return numHundreds*100 + numTens*10 + numUnits;
   }
+
+  int _getNumberHundreds()  => solutionEntity.number ~/ 100;
+  int _getNumberTens()      => (solutionEntity.number ~/ 10) %10;
+  int _getNumberUnits()     => solutionEntity.number % 10;
 
   @override
   List<Object?> get props => [solutionEntity.digit, solutionEntity.number];

@@ -1,6 +1,5 @@
 {
-    "excDigitOutRange": "Цифра {} вне диапазона.",
-    "excNumberOutRange": "Число {} вне диапазона.",
+    "solutionNotAvailableInDemo": "Решения нет в демо",
     "noSolution": "нет решения",
     "appTitle": "Числомания",
     "shareSectTitle": "Удиви знакомых знаниями математики с '{}'. Доступно в GooglePlay: {}",

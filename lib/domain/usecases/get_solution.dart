@@ -28,6 +28,4 @@ class SolutionParams extends Equatable {
 
   @override
   List<Object?> get props => [digit, number];
-
-
 }

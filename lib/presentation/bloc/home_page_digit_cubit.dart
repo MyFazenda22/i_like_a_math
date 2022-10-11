@@ -9,9 +9,9 @@ class DigitAndNumberCubit extends Cubit<DigitAndNumberState> {
   final GetSolution getSolution;
 
   DigitAndNumberCubit({required this.getSolution}):
-        super(DigitAndNumberState(solutionEntity: SolutionEntity.empty()));
+        super(DigitAndNumberState(hasSolution: false, solutionEntity: SolutionEntity.empty()));
 
-  void incrementDigit() async {
+  Future<void> incrementDigit() async {
     var digit = state.solutionEntity.digit;
     if (digit < 9)    digit += 1;
     else              digit = 1;
@@ -19,7 +19,7 @@ class DigitAndNumberCubit extends Cubit<DigitAndNumberState> {
     await _emitFailureOrSolution(digit: digit, number: state.solutionEntity.number);
   }
 
-  void decrementDigit() async {
+  Future<void> decrementDigit() async {
     var digit = state.solutionEntity.digit;
     if (digit > 1)  digit -= 1;
     else            digit = 9;
@@ -27,46 +27,44 @@ class DigitAndNumberCubit extends Cubit<DigitAndNumberState> {
     await _emitFailureOrSolution(digit: digit, number: state.solutionEntity.number);
   }
 
-  void incrementNumber(digitOrder) async {
-    var numDig = state.getNumberDigit(digitOrder);
-    if(digitOrder == 1) {
+  Future<void> incrementNumber(digitPosition) async {
+    var numDig = state.getNumberDigit(digitPosition);
+    if(digitPosition == DigitPosition.hundreds) {
       if(numDig < 9)  numDig ++;
       else            numDig = 1;
     } else {
       if(numDig < 9)  numDig ++;
       else            numDig = 0;
     }
-    final newNumber = state.getNumberWhenChangeDigitInNumber(numDig, digitOrder);
+    final newNumber = state.getNumberWhenChangeDigitInNumber(numDig, digitPosition);
     await _emitFailureOrSolution(digit: state.solutionEntity.digit, number: newNumber);
   }
 
-  void decrementNumber(digitOrder) async {
-    var numDig = state.getNumberDigit(digitOrder);
-    if(digitOrder == 1) {
+  Future<void> decrementNumber(digitPosition) async {
+    var numDig = state.getNumberDigit(digitPosition);
+    if(digitPosition == DigitPosition.hundreds) {
       if(numDig > 1)  numDig --;
       else            numDig = 9;
     } else {
       if(numDig > 0)  numDig --;
       else            numDig = 9;
     }
-    final newNumber = state.getNumberWhenChangeDigitInNumber(numDig, digitOrder);
+    final newNumber = state.getNumberWhenChangeDigitInNumber(numDig, digitPosition);
     await _emitFailureOrSolution(digit: state.solutionEntity.digit, number: newNumber);
   }
 
   Future<void> _emitFailureOrSolution({required int digit, required int number}) async {
     final failureOrSolution = await getSolution(SolutionParams(digit: digit, number: number));
 
-
-
     failureOrSolution.fold(
       (error) {
         emit(
-          DigitAndNumberState(solutionEntity: SolutionEntity.error(digit: digit, number: number, errorMsg: error.msg))
+          DigitAndNumberState(hasSolution: false, solutionEntity: SolutionEntity.error(digit: digit, number: number, errorMsg: error.msg))
         );
       },
       (solution) {
         emit(
-          DigitAndNumberState(solutionEntity: solution)
+          DigitAndNumberState(hasSolution: true, solutionEntity: solution)
         );
       }
     );

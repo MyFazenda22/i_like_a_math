@@ -3,12 +3,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:i_like_a_math/presentation/bloc/home_page_digit_cubit.dart';
+import 'package:i_like_a_math/presentation/bloc/home_page_digit_state.dart';
 import 'package:i_like_a_math/presentation/widgets/custom_widgets/tint_image.dart';
 
 class OneDigitNumberButton extends StatelessWidget {
   final bool isUp;
-  final int digitOrder;
-  const OneDigitNumberButton({Key? key, required this.digitOrder, required this.isUp}) : super(key: key);
+  final DigitPosition digitPosition;
+  const OneDigitNumberButton({Key? key, required this.digitPosition, required this.isUp}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -29,9 +30,9 @@ class OneDigitNumberButton extends StatelessWidget {
               ),
               onPressed: () {
                 if(kDebugMode) {
-                  isUp ? print("Up $digitOrder") : print("Down $digitOrder");
+                  isUp ? print("Up $digitPosition") : print("Down $digitPosition");
                 }
-                isUp ? numberAndDigitCubit.incrementNumber(digitOrder): numberAndDigitCubit.decrementNumber(digitOrder);
+                isUp ? numberAndDigitCubit.incrementNumber(digitPosition): numberAndDigitCubit.decrementNumber(digitPosition);
               },
             ),
           ),

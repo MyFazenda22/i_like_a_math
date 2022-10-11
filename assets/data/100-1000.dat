@@ -57,36 +57,6 @@
 1	148	(11+1)[(1+1)]+1+1+1+1
 1	149	(11+1)[(1+1)]+1+1+1+1+1
 1	150	(11-1)*(11+1+1+1+1)
-1	151	N/A in demo: 1=151
-1	152	N/A in demo: 1=152
-1	153	N/A in demo: 1=153
-1	154	N/A in demo: 1=154
-1	155	N/A in demo: 1=155
-1	156	N/A in demo: 1=156
-1	157	N/A in demo: 1=157
-1	158	N/A in demo: 1=158
-1	159	N/A in demo: 1=159
-1	160	N/A in demo: 1=160
-1	161	N/A in demo: 1=161
-1	162	N/A in demo: 1=162
-1	163	N/A in demo: 1=163
-1	164	N/A in demo: 1=164
-1	165	N/A in demo: 1=165
-1	166	N/A in demo: 1=166
-1	167	N/A in demo: 1=167
-1	168	N/A in demo: 1=168
-1	169	N/A in demo: 1=169
-1	170	N/A in demo: 1=170
-1	171	N/A in demo: 1=171
-1	172	N/A in demo: 1=172
-1	173	N/A in demo: 1=173
-1	174	N/A in demo: 1=174
-1	175	N/A in demo: 1=175
-1	176	N/A in demo: 1=176
-1	177	N/A in demo: 1=177
-1	178	N/A in demo: 1=178
-1	179	N/A in demo: 1=179
-1	180	N/A in demo: 1=180
 1	181	(11+1+1)[(1+1)]+11+1
 1	182	(11+1+1)*(11+1+1+1)
 1	183	(11+1+1)*(11+1+1+1)+1
@@ -180,32 +150,6 @@
 1	271	(11-1)*(1+1+1)[(1+1+1)]+1
 1	272	(11+1+1)*(11+11-1)-1
 1	273	(11+1+1)*(11+11-1)
-1	274	N/A in demo: 1=274
-1	275	N/A in demo: 1=275
-1	276	N/A in demo: 1=276
-1	277	N/A in demo: 1=277
-1	278	N/A in demo: 1=278
-1	279	N/A in demo: 1=279
-1	280	N/A in demo: 1=280
-1	281	N/A in demo: 1=281
-1	282	N/A in demo: 1=282
-1	283	N/A in demo: 1=283
-1	284	N/A in demo: 1=284
-1	285	N/A in demo: 1=285
-1	286	N/A in demo: 1=286
-1	287	N/A in demo: 1=287
-1	288	N/A in demo: 1=288
-1	289	N/A in demo: 1=289
-1	290	N/A in demo: 1=290
-1	291	N/A in demo: 1=291
-1	292	N/A in demo: 1=292
-1	293	N/A in demo: 1=293
-1	294	N/A in demo: 1=294
-1	295	N/A in demo: 1=295
-1	296	N/A in demo: 1=296
-1	297	N/A in demo: 1=297
-1	298	N/A in demo: 1=298
-1	299	N/A in demo: 1=299
 1	300	(1+1+1)*(11-1)[(1+1)]
 1	301	(1+1+1)*(11-1)[(1+1)]+1
 1	302	(1+1+1)*(11-1)[(1+1)]+1+1
@@ -292,46 +236,6 @@
 1	383	(11+1)*(11*(1+1+1)-1)-1
 1	384	(11+1)*(11*(1+1+1)-1)
 1	385	11*(11*(1+1+1)+1+1)
-1	386	N/A in demo: 1=386
-1	387	N/A in demo: 1=387
-1	388	N/A in demo: 1=388
-1	389	N/A in demo: 1=389
-1	390	N/A in demo: 1=390
-1	391	N/A in demo: 1=391
-1	392	N/A in demo: 1=392
-1	393	N/A in demo: 1=393
-1	394	N/A in demo: 1=394
-1	395	N/A in demo: 1=395
-1	396	N/A in demo: 1=396
-1	397	N/A in demo: 1=397
-1	398	N/A in demo: 1=398
-1	399	N/A in demo: 1=399
-1	400	N/A in demo: 1=400
-1	401	N/A in demo: 1=401
-1	402	N/A in demo: 1=402
-1	403	N/A in demo: 1=403
-1	404	N/A in demo: 1=404
-1	405	N/A in demo: 1=405
-1	406	N/A in demo: 1=406
-1	407	N/A in demo: 1=407
-1	408	N/A in demo: 1=408
-1	409	N/A in demo: 1=409
-1	410	N/A in demo: 1=410
-1	411	N/A in demo: 1=411
-1	412	N/A in demo: 1=412
-1	413	N/A in demo: 1=413
-1	414	N/A in demo: 1=414
-1	415	N/A in demo: 1=415
-1	416	N/A in demo: 1=416
-1	417	N/A in demo: 1=417
-1	418	N/A in demo: 1=418
-1	419	N/A in demo: 1=419
-1	420	N/A in demo: 1=420
-1	421	N/A in demo: 1=421
-1	422	N/A in demo: 1=422
-1	423	N/A in demo: 1=423
-1	424	N/A in demo: 1=424
-1	425	N/A in demo: 1=425
 1	426	(1+1)*((1+1)*(111+1)-11)
 1	427	(1+1)*((1+1)*(111+1)-11)+1
 1	428	(1+1+1)*(11+1+1)*11-1
@@ -471,40 +375,6 @@
 1	562	(1111+11)/(1+1)+1
 1	563	(1111+11)/(1+1)+1+1
 1	564	((1+1)*(11+1))[(1+1)]-11-1
-1	565	N/A in demo: 1=565
-1	566	N/A in demo: 1=566
-1	567	N/A in demo: 1=567
-1	568	N/A in demo: 1=568
-1	569	N/A in demo: 1=569
-1	570	N/A in demo: 1=570
-1	571	N/A in demo: 1=571
-1	572	N/A in demo: 1=572
-1	573	N/A in demo: 1=573
-1	574	N/A in demo: 1=574
-1	575	N/A in demo: 1=575
-1	576	N/A in demo: 1=576
-1	577	N/A in demo: 1=577
-1	578	N/A in demo: 1=578
-1	579	N/A in demo: 1=579
-1	580	N/A in demo: 1=580
-1	581	N/A in demo: 1=581
-1	582	N/A in demo: 1=582
-1	583	N/A in demo: 1=583
-1	584	N/A in demo: 1=584
-1	585	N/A in demo: 1=585
-1	586	N/A in demo: 1=586
-1	587	N/A in demo: 1=587
-1	588	N/A in demo: 1=588
-1	589	N/A in demo: 1=589
-1	590	N/A in demo: 1=590
-1	591	N/A in demo: 1=591
-1	592	N/A in demo: 1=592
-1	593	N/A in demo: 1=593
-1	594	N/A in demo: 1=594
-1	595	N/A in demo: 1=595
-1	596	N/A in demo: 1=596
-1	597	N/A in demo: 1=597
-1	598	N/A in demo: 1=598
 1	599	1111-(1+1)[(11-1-1)]
 1	600	(1+1)*(1+1+1)*(11-1)[(1+1)]
 1	601	(1+1)*(1+1+1)*(11-1)[(1+1)]+1
@@ -589,52 +459,6 @@
 1	680	((1+1)[11]-11)/(1+1+1)+1
 1	681	((1+1)[11]+1)/(1+1+1)-1-1
 1	682	((1+1)[11]-1-1)/(1+1+1)
-1	683	N/A in demo: 1=683
-1	684	N/A in demo: 1=684
-1	685	N/A in demo: 1=685
-1	686	N/A in demo: 1=686
-1	687	N/A in demo: 1=687
-1	688	N/A in demo: 1=688
-1	689	N/A in demo: 1=689
-1	690	N/A in demo: 1=690
-1	691	N/A in demo: 1=691
-1	692	N/A in demo: 1=692
-1	693	N/A in demo: 1=693
-1	694	N/A in demo: 1=694
-1	695	N/A in demo: 1=695
-1	696	N/A in demo: 1=696
-1	697	N/A in demo: 1=697
-1	698	N/A in demo: 1=698
-1	699	N/A in demo: 1=699
-1	700	N/A in demo: 1=700
-1	701	N/A in demo: 1=701
-1	702	N/A in demo: 1=702
-1	703	N/A in demo: 1=703
-1	704	N/A in demo: 1=704
-1	705	N/A in demo: 1=705
-1	706	N/A in demo: 1=706
-1	707	N/A in demo: 1=707
-1	708	N/A in demo: 1=708
-1	709	N/A in demo: 1=709
-1	710	N/A in demo: 1=710
-1	711	N/A in demo: 1=711
-1	712	N/A in demo: 1=712
-1	713	N/A in demo: 1=713
-1	714	N/A in demo: 1=714
-1	715	N/A in demo: 1=715
-1	716	N/A in demo: 1=716
-1	717	N/A in demo: 1=717
-1	718	N/A in demo: 1=718
-1	719	N/A in demo: 1=719
-1	720	N/A in demo: 1=720
-1	721	N/A in demo: 1=721
-1	722	N/A in demo: 1=722
-1	723	N/A in demo: 1=723
-1	724	N/A in demo: 1=724
-1	725	N/A in demo: 1=725
-1	726	N/A in demo: 1=726
-1	727	N/A in demo: 1=727
-1	728	N/A in demo: 1=728
 1	729	(11-1-1)[(1+1+1)]
 1	730	(11-1-1)[(1+1+1)]+1
 1	731	(11-1-1)[(1+1+1)]+1+1
@@ -730,58 +554,6 @@
 1	821	(11-1)*((11-1-1)[(1+1)]+1)+1
 1	822	(1+1)*(((1+1)*(11-1))[(1+1)]+11)
 1	823	1111-(1+1)*(11+1)[(1+1)]
-1	824	N/A in demo: 1=824
-1	825	N/A in demo: 1=825
-1	826	N/A in demo: 1=826
-1	827	N/A in demo: 1=827
-1	828	N/A in demo: 1=828
-1	829	N/A in demo: 1=829
-1	830	N/A in demo: 1=830
-1	831	N/A in demo: 1=831
-1	832	N/A in demo: 1=832
-1	833	N/A in demo: 1=833
-1	834	N/A in demo: 1=834
-1	835	N/A in demo: 1=835
-1	836	N/A in demo: 1=836
-1	837	N/A in demo: 1=837
-1	838	N/A in demo: 1=838
-1	839	N/A in demo: 1=839
-1	840	N/A in demo: 1=840
-1	841	N/A in demo: 1=841
-1	842	N/A in demo: 1=842
-1	843	N/A in demo: 1=843
-1	844	N/A in demo: 1=844
-1	845	N/A in demo: 1=845
-1	846	N/A in demo: 1=846
-1	847	N/A in demo: 1=847
-1	848	N/A in demo: 1=848
-1	849	N/A in demo: 1=849
-1	850	N/A in demo: 1=850
-1	851	N/A in demo: 1=851
-1	852	N/A in demo: 1=852
-1	853	N/A in demo: 1=853
-1	854	N/A in demo: 1=854
-1	855	N/A in demo: 1=855
-1	856	N/A in demo: 1=856
-1	857	N/A in demo: 1=857
-1	858	N/A in demo: 1=858
-1	859	N/A in demo: 1=859
-1	860	N/A in demo: 1=860
-1	861	N/A in demo: 1=861
-1	862	N/A in demo: 1=862
-1	863	N/A in demo: 1=863
-1	864	N/A in demo: 1=864
-1	865	N/A in demo: 1=865
-1	866	N/A in demo: 1=866
-1	867	N/A in demo: 1=867
-1	868	N/A in demo: 1=868
-1	869	N/A in demo: 1=869
-1	870	N/A in demo: 1=870
-1	871	N/A in demo: 1=871
-1	872	N/A in demo: 1=872
-1	873	N/A in demo: 1=873
-1	874	N/A in demo: 1=874
-1	875	N/A in demo: 1=875
 1	876	11+(11+1)[(1+1+1)]/(1+1)+1
 1	877	(1+1)[(1+1+1)]*111-11
 1	878	(1+1)[(1+1+1)]*111-11+1
@@ -867,41 +639,6 @@
 1	958	11*(111-(1+1)*(11+1))+1
 1	959	(1+1)[11]-(11*(1+1+1))[(1+1)]
 1	960	(11+1)*((11-1-1)[(1+1)]-1)
-1	961	N/A in demo: 1=961
-1	962	N/A in demo: 1=962
-1	963	N/A in demo: 1=963
-1	964	N/A in demo: 1=964
-1	965	N/A in demo: 1=965
-1	966	N/A in demo: 1=966
-1	967	N/A in demo: 1=967
-1	968	N/A in demo: 1=968
-1	969	N/A in demo: 1=969
-1	970	N/A in demo: 1=970
-1	971	N/A in demo: 1=971
-1	972	N/A in demo: 1=972
-1	973	N/A in demo: 1=973
-1	974	N/A in demo: 1=974
-1	975	N/A in demo: 1=975
-1	976	N/A in demo: 1=976
-1	977	N/A in demo: 1=977
-1	978	N/A in demo: 1=978
-1	979	N/A in demo: 1=979
-1	980	N/A in demo: 1=980
-1	981	N/A in demo: 1=981
-1	982	N/A in demo: 1=982
-1	983	N/A in demo: 1=983
-1	984	N/A in demo: 1=984
-1	985	N/A in demo: 1=985
-1	986	N/A in demo: 1=986
-1	987	N/A in demo: 1=987
-1	988	N/A in demo: 1=988
-1	989	N/A in demo: 1=989
-1	990	N/A in demo: 1=990
-1	991	N/A in demo: 1=991
-1	992	N/A in demo: 1=992
-1	993	N/A in demo: 1=993
-1	994	N/A in demo: 1=994
-1	995	N/A in demo: 1=995
 1	996	(1+1+1)*((1+1+1)*111-1)
 1	997	(11-1)[(1+1+1)]-1-1-1
 1	998	(11-1)[(1+1+1)]-1-1
@@ -1081,43 +818,6 @@
 2	272	2[2*(2+2)]+2[(2+2)]
 2	273	(2+22/2)*(22-2/2)
 2	274	2[2*(2+2)]+2[(2+2)]+2
-2	275	N/A in demo: 2=275
-2	276	N/A in demo: 2=276
-2	277	N/A in demo: 2=277
-2	278	N/A in demo: 2=278
-2	279	N/A in demo: 2=279
-2	280	N/A in demo: 2=280
-2	281	N/A in demo: 2=281
-2	282	N/A in demo: 2=282
-2	283	N/A in demo: 2=283
-2	284	N/A in demo: 2=284
-2	285	N/A in demo: 2=285
-2	286	N/A in demo: 2=286
-2	287	N/A in demo: 2=287
-2	288	N/A in demo: 2=288
-2	289	N/A in demo: 2=289
-2	290	N/A in demo: 2=290
-2	291	N/A in demo: 2=291
-2	292	N/A in demo: 2=292
-2	293	N/A in demo: 2=293
-2	294	N/A in demo: 2=294
-2	295	N/A in demo: 2=295
-2	296	N/A in demo: 2=296
-2	297	N/A in demo: 2=297
-2	298	N/A in demo: 2=298
-2	299	N/A in demo: 2=299
-2	300	N/A in demo: 2=300
-2	301	N/A in demo: 2=301
-2	302	N/A in demo: 2=302
-2	303	N/A in demo: 2=303
-2	304	N/A in demo: 2=304
-2	305	N/A in demo: 2=305
-2	306	N/A in demo: 2=306
-2	307	N/A in demo: 2=307
-2	308	N/A in demo: 2=308
-2	309	N/A in demo: 2=309
-2	310	N/A in demo: 2=310
-2	311	N/A in demo: 2=311
 2	312	(22+2)*(2+22/2)
 2	313	(2[(2+2)]+2)[2]-22/2
 2	314	(22+2)*(2+22/2)+2
@@ -1250,42 +950,6 @@
 2	441	(22-2/2)[2]
 2	442	2*222-2
 2	443	2*222-2/2
-2	444	N/A in demo: 2=444
-2	445	N/A in demo: 2=445
-2	446	N/A in demo: 2=446
-2	447	N/A in demo: 2=447
-2	448	N/A in demo: 2=448
-2	449	N/A in demo: 2=449
-2	450	N/A in demo: 2=450
-2	451	N/A in demo: 2=451
-2	452	N/A in demo: 2=452
-2	453	N/A in demo: 2=453
-2	454	N/A in demo: 2=454
-2	455	N/A in demo: 2=455
-2	456	N/A in demo: 2=456
-2	457	N/A in demo: 2=457
-2	458	N/A in demo: 2=458
-2	459	N/A in demo: 2=459
-2	460	N/A in demo: 2=460
-2	461	N/A in demo: 2=461
-2	462	N/A in demo: 2=462
-2	463	N/A in demo: 2=463
-2	464	N/A in demo: 2=464
-2	465	N/A in demo: 2=465
-2	466	N/A in demo: 2=466
-2	467	N/A in demo: 2=467
-2	468	N/A in demo: 2=468
-2	469	N/A in demo: 2=469
-2	470	N/A in demo: 2=470
-2	471	N/A in demo: 2=471
-2	472	N/A in demo: 2=472
-2	473	N/A in demo: 2=473
-2	474	N/A in demo: 2=474
-2	475	N/A in demo: 2=475
-2	476	N/A in demo: 2=476
-2	477	N/A in demo: 2=477
-2	478	N/A in demo: 2=478
-2	479	N/A in demo: 2=479
 2	480	22[2]-2-2
 2	481	22[2]-2-2/2
 2	482	22[2]-2
@@ -1463,47 +1127,6 @@
 2	654	(22+2+2)[2]-22
 2	655	22[2]+(2+22/2)[2]+2
 2	656	(22+2+2)[2]-22+2
-2	657	N/A in demo: 2=657
-2	658	N/A in demo: 2=658
-2	659	N/A in demo: 2=659
-2	660	N/A in demo: 2=660
-2	661	N/A in demo: 2=661
-2	662	N/A in demo: 2=662
-2	663	N/A in demo: 2=663
-2	664	N/A in demo: 2=664
-2	665	N/A in demo: 2=665
-2	666	N/A in demo: 2=666
-2	667	N/A in demo: 2=667
-2	668	N/A in demo: 2=668
-2	669	N/A in demo: 2=669
-2	670	N/A in demo: 2=670
-2	671	N/A in demo: 2=671
-2	672	N/A in demo: 2=672
-2	673	N/A in demo: 2=673
-2	674	N/A in demo: 2=674
-2	675	N/A in demo: 2=675
-2	676	N/A in demo: 2=676
-2	677	N/A in demo: 2=677
-2	678	N/A in demo: 2=678
-2	679	N/A in demo: 2=679
-2	680	N/A in demo: 2=680
-2	681	N/A in demo: 2=681
-2	682	N/A in demo: 2=682
-2	683	N/A in demo: 2=683
-2	684	N/A in demo: 2=684
-2	685	N/A in demo: 2=685
-2	686	N/A in demo: 2=686
-2	687	N/A in demo: 2=687
-2	688	N/A in demo: 2=688
-2	689	N/A in demo: 2=689
-2	690	N/A in demo: 2=690
-2	691	N/A in demo: 2=691
-2	692	N/A in demo: 2=692
-2	693	N/A in demo: 2=693
-2	694	N/A in demo: 2=694
-2	695	N/A in demo: 2=695
-2	696	N/A in demo: 2=696
-2	697	N/A in demo: 2=697
 2	698	(22+2+2)[2]+22
 2	699	(22+2)[2]+2+(22/2)[2]
 2	700	2*(22*2[(2+2)]-2)
@@ -1600,49 +1223,6 @@
 2	791	22*(2+2+2)[2]-2/2
 2	792	22*(2+2+2)[2]
 2	793	22*(2+2+2)[2]+2/2
-2	794	N/A in demo: 2=794
-2	795	N/A in demo: 2=795
-2	796	N/A in demo: 2=796
-2	797	N/A in demo: 2=797
-2	798	N/A in demo: 2=798
-2	799	N/A in demo: 2=799
-2	800	N/A in demo: 2=800
-2	801	N/A in demo: 2=801
-2	802	N/A in demo: 2=802
-2	803	N/A in demo: 2=803
-2	804	N/A in demo: 2=804
-2	805	N/A in demo: 2=805
-2	806	N/A in demo: 2=806
-2	807	N/A in demo: 2=807
-2	808	N/A in demo: 2=808
-2	809	N/A in demo: 2=809
-2	810	N/A in demo: 2=810
-2	811	N/A in demo: 2=811
-2	812	N/A in demo: 2=812
-2	813	N/A in demo: 2=813
-2	814	N/A in demo: 2=814
-2	815	N/A in demo: 2=815
-2	816	N/A in demo: 2=816
-2	817	N/A in demo: 2=817
-2	818	N/A in demo: 2=818
-2	819	N/A in demo: 2=819
-2	820	N/A in demo: 2=820
-2	821	N/A in demo: 2=821
-2	822	N/A in demo: 2=822
-2	823	N/A in demo: 2=823
-2	824	N/A in demo: 2=824
-2	825	N/A in demo: 2=825
-2	826	N/A in demo: 2=826
-2	827	N/A in demo: 2=827
-2	828	N/A in demo: 2=828
-2	829	N/A in demo: 2=829
-2	830	N/A in demo: 2=830
-2	831	N/A in demo: 2=831
-2	832	N/A in demo: 2=832
-2	833	N/A in demo: 2=833
-2	834	N/A in demo: 2=834
-2	835	N/A in demo: 2=835
-2	836	N/A in demo: 2=836
 2	837	22*((2+2+2)[2]+2)+2-2/2
 2	838	22*((2+2+2)[2]+2)+2
 2	839	(22-2)*(2*22-2)-2/2
@@ -1751,35 +1331,6 @@
 2	942	2*(22[2]-2)-22
 2	943	2*(22[2]-2)-22+2/2
 2	944	2*22[2]-22-2
-2	945	N/A in demo: 2=945
-2	946	N/A in demo: 2=946
-2	947	N/A in demo: 2=947
-2	948	N/A in demo: 2=948
-2	949	N/A in demo: 2=949
-2	950	N/A in demo: 2=950
-2	951	N/A in demo: 2=951
-2	952	N/A in demo: 2=952
-2	953	N/A in demo: 2=953
-2	954	N/A in demo: 2=954
-2	955	N/A in demo: 2=955
-2	956	N/A in demo: 2=956
-2	957	N/A in demo: 2=957
-2	958	N/A in demo: 2=958
-2	959	N/A in demo: 2=959
-2	960	N/A in demo: 2=960
-2	961	N/A in demo: 2=961
-2	962	N/A in demo: 2=962
-2	963	N/A in demo: 2=963
-2	964	N/A in demo: 2=964
-2	965	N/A in demo: 2=965
-2	966	N/A in demo: 2=966
-2	967	N/A in demo: 2=967
-2	968	N/A in demo: 2=968
-2	969	N/A in demo: 2=969
-2	970	N/A in demo: 2=970
-2	971	N/A in demo: 2=971
-2	972	N/A in demo: 2=972
-2	973	N/A in demo: 2=973
 2	974	2*(22[2]+2)+2
 2	975	2*(22[2]+2)+2+2/2
 2	976	2*(22[2]+2+2)
@@ -1938,40 +1489,6 @@
 3	229	(3[(3+3)]-33)/3-3
 3	230	(3+3)[3]+3+33/3
 3	231	33*(3+3)+33
-3	232	N/A in demo: 3=232
-3	233	N/A in demo: 3=233
-3	234	N/A in demo: 3=234
-3	235	N/A in demo: 3=235
-3	236	N/A in demo: 3=236
-3	237	N/A in demo: 3=237
-3	238	N/A in demo: 3=238
-3	239	N/A in demo: 3=239
-3	240	N/A in demo: 3=240
-3	241	N/A in demo: 3=241
-3	242	N/A in demo: 3=242
-3	243	N/A in demo: 3=243
-3	244	N/A in demo: 3=244
-3	245	N/A in demo: 3=245
-3	246	N/A in demo: 3=246
-3	247	N/A in demo: 3=247
-3	248	N/A in demo: 3=248
-3	249	N/A in demo: 3=249
-3	250	N/A in demo: 3=250
-3	251	N/A in demo: 3=251
-3	252	N/A in demo: 3=252
-3	253	N/A in demo: 3=253
-3	254	N/A in demo: 3=254
-3	255	N/A in demo: 3=255
-3	256	N/A in demo: 3=256
-3	257	N/A in demo: 3=257
-3	258	N/A in demo: 3=258
-3	259	N/A in demo: 3=259
-3	260	N/A in demo: 3=260
-3	261	N/A in demo: 3=261
-3	262	N/A in demo: 3=262
-3	263	N/A in demo: 3=263
-3	264	N/A in demo: 3=264
-3	265	N/A in demo: 3=265
 3	266	3+(33*(3[3]-3)-3)/3
 3	267	3*3*(3[3]+3)-3
 3	268	3+(33*(3[3]-3)+3)/3
@@ -2222,41 +1739,6 @@
 3	513	(3-3/3)[(3*3)]+3/3
 3	514	(3-3/3)[(3*3)]+3-3/3
 3	515	(3-3/3)[(3*3)]+3
-3	516	N/A in demo: 3=516
-3	517	N/A in demo: 3=517
-3	518	N/A in demo: 3=518
-3	519	N/A in demo: 3=519
-3	520	N/A in demo: 3=520
-3	521	N/A in demo: 3=521
-3	522	N/A in demo: 3=522
-3	523	N/A in demo: 3=523
-3	524	N/A in demo: 3=524
-3	525	N/A in demo: 3=525
-3	526	N/A in demo: 3=526
-3	527	N/A in demo: 3=527
-3	528	N/A in demo: 3=528
-3	529	N/A in demo: 3=529
-3	530	N/A in demo: 3=530
-3	531	N/A in demo: 3=531
-3	532	N/A in demo: 3=532
-3	533	N/A in demo: 3=533
-3	534	N/A in demo: 3=534
-3	535	N/A in demo: 3=535
-3	536	N/A in demo: 3=536
-3	537	N/A in demo: 3=537
-3	538	N/A in demo: 3=538
-3	539	N/A in demo: 3=539
-3	540	N/A in demo: 3=540
-3	541	N/A in demo: 3=541
-3	542	N/A in demo: 3=542
-3	543	N/A in demo: 3=543
-3	544	N/A in demo: 3=544
-3	545	N/A in demo: 3=545
-3	546	N/A in demo: 3=546
-3	547	N/A in demo: 3=547
-3	548	N/A in demo: 3=548
-3	549	N/A in demo: 3=549
-3	550	N/A in demo: 3=550
 3	551	(3333-3[3])/(3+3)
 3	552	(3+3)[3]+333+3
 3	553	(3333+3)/(3+3)-3
@@ -2481,43 +1963,6 @@
 3	772	3[(3+3)]+3*3+33+3/3
 3	773	3[(3+3)]+33+33/3
 3	774	3[(3+3)]+3*3+33+3
-3	775	N/A in demo: 3=775
-3	776	N/A in demo: 3=776
-3	777	N/A in demo: 3=777
-3	778	N/A in demo: 3=778
-3	779	N/A in demo: 3=779
-3	780	N/A in demo: 3=780
-3	781	N/A in demo: 3=781
-3	782	N/A in demo: 3=782
-3	783	N/A in demo: 3=783
-3	784	N/A in demo: 3=784
-3	785	N/A in demo: 3=785
-3	786	N/A in demo: 3=786
-3	787	N/A in demo: 3=787
-3	788	N/A in demo: 3=788
-3	789	N/A in demo: 3=789
-3	790	N/A in demo: 3=790
-3	791	N/A in demo: 3=791
-3	792	N/A in demo: 3=792
-3	793	N/A in demo: 3=793
-3	794	N/A in demo: 3=794
-3	795	N/A in demo: 3=795
-3	796	N/A in demo: 3=796
-3	797	N/A in demo: 3=797
-3	798	N/A in demo: 3=798
-3	799	N/A in demo: 3=799
-3	800	N/A in demo: 3=800
-3	801	N/A in demo: 3=801
-3	802	N/A in demo: 3=802
-3	803	N/A in demo: 3=803
-3	804	N/A in demo: 3=804
-3	805	N/A in demo: 3=805
-3	806	N/A in demo: 3=806
-3	807	N/A in demo: 3=807
-3	808	N/A in demo: 3=808
-3	809	N/A in demo: 3=809
-3	810	N/A in demo: 3=810
-3	811	N/A in demo: 3=811
 3	812	3[3]*(3[3]+3)+3-3/3
 3	813	3[3]*(3[3]+3)+3
 3	814	3[3]*(3[3]+3)+3+3/3
@@ -2627,45 +2072,6 @@
 3	918	3*3*(3*33+3)
 3	919	33*3[3]+3[3]+3/3
 3	920	33*3[3]+3[3]+3-3/3
-3	921	N/A in demo: 3=921
-3	922	N/A in demo: 3=922
-3	923	N/A in demo: 3=923
-3	924	N/A in demo: 3=924
-3	925	N/A in demo: 3=925
-3	926	N/A in demo: 3=926
-3	927	N/A in demo: 3=927
-3	928	N/A in demo: 3=928
-3	929	N/A in demo: 3=929
-3	930	N/A in demo: 3=930
-3	931	N/A in demo: 3=931
-3	932	N/A in demo: 3=932
-3	933	N/A in demo: 3=933
-3	934	N/A in demo: 3=934
-3	935	N/A in demo: 3=935
-3	936	N/A in demo: 3=936
-3	937	N/A in demo: 3=937
-3	938	N/A in demo: 3=938
-3	939	N/A in demo: 3=939
-3	940	N/A in demo: 3=940
-3	941	N/A in demo: 3=941
-3	942	N/A in demo: 3=942
-3	943	N/A in demo: 3=943
-3	944	N/A in demo: 3=944
-3	945	N/A in demo: 3=945
-3	946	N/A in demo: 3=946
-3	947	N/A in demo: 3=947
-3	948	N/A in demo: 3=948
-3	949	N/A in demo: 3=949
-3	950	N/A in demo: 3=950
-3	951	N/A in demo: 3=951
-3	952	N/A in demo: 3=952
-3	953	N/A in demo: 3=953
-3	954	N/A in demo: 3=954
-3	955	N/A in demo: 3=955
-3	956	N/A in demo: 3=956
-3	957	N/A in demo: 3=957
-3	958	N/A in demo: 3=958
-3	959	N/A in demo: 3=959
 3	960	(3+3[3])*(33-3/3)
 3	961	(3[3]+3+3/3)[(3-3/3)]
 3	962	33*3[3]+((3+3)[3]-3)/3
@@ -2969,45 +2375,6 @@
 4	360	44*(4+4)+4+4
 4	361	44*(4+4)+4+4+4/4
 4	362	4[4]-4+(444-4)/4
-4	363	N/A in demo: 4=363
-4	364	N/A in demo: 4=364
-4	365	N/A in demo: 4=365
-4	366	N/A in demo: 4=366
-4	367	N/A in demo: 4=367
-4	368	N/A in demo: 4=368
-4	369	N/A in demo: 4=369
-4	370	N/A in demo: 4=370
-4	371	N/A in demo: 4=371
-4	372	N/A in demo: 4=372
-4	373	N/A in demo: 4=373
-4	374	N/A in demo: 4=374
-4	375	N/A in demo: 4=375
-4	376	N/A in demo: 4=376
-4	377	N/A in demo: 4=377
-4	378	N/A in demo: 4=378
-4	379	N/A in demo: 4=379
-4	380	N/A in demo: 4=380
-4	381	N/A in demo: 4=381
-4	382	N/A in demo: 4=382
-4	383	N/A in demo: 4=383
-4	384	N/A in demo: 4=384
-4	385	N/A in demo: 4=385
-4	386	N/A in demo: 4=386
-4	387	N/A in demo: 4=387
-4	388	N/A in demo: 4=388
-4	389	N/A in demo: 4=389
-4	390	N/A in demo: 4=390
-4	391	N/A in demo: 4=391
-4	392	N/A in demo: 4=392
-4	393	N/A in demo: 4=393
-4	394	N/A in demo: 4=394
-4	395	N/A in demo: 4=395
-4	396	N/A in demo: 4=396
-4	397	N/A in demo: 4=397
-4	398	N/A in demo: 4=398
-4	399	N/A in demo: 4=399
-4	400	N/A in demo: 4=400
-4	401	N/A in demo: 4=401
 4	402	444-44+(4+4)/4
 4	403	4*4[4]+4-(4+4/4)[4]
 4	404	444-44+4
@@ -3184,39 +2551,6 @@
 4	575	4[4]+4[4]+(4[4]-4)/4
 4	576	4*4*(4*(4+4)+4)
 4	577	(4+4/4)[4]-44-4
-4	578	N/A in demo: 4=578
-4	579	N/A in demo: 4=579
-4	580	N/A in demo: 4=580
-4	581	N/A in demo: 4=581
-4	582	N/A in demo: 4=582
-4	583	N/A in demo: 4=583
-4	584	N/A in demo: 4=584
-4	585	N/A in demo: 4=585
-4	586	N/A in demo: 4=586
-4	587	N/A in demo: 4=587
-4	588	N/A in demo: 4=588
-4	589	N/A in demo: 4=589
-4	590	N/A in demo: 4=590
-4	591	N/A in demo: 4=591
-4	592	N/A in demo: 4=592
-4	593	N/A in demo: 4=593
-4	594	N/A in demo: 4=594
-4	595	N/A in demo: 4=595
-4	596	N/A in demo: 4=596
-4	597	N/A in demo: 4=597
-4	598	N/A in demo: 4=598
-4	599	N/A in demo: 4=599
-4	600	N/A in demo: 4=600
-4	601	N/A in demo: 4=601
-4	602	N/A in demo: 4=602
-4	603	N/A in demo: 4=603
-4	604	N/A in demo: 4=604
-4	605	N/A in demo: 4=605
-4	606	N/A in demo: 4=606
-4	607	N/A in demo: 4=607
-4	608	N/A in demo: 4=608
-4	609	N/A in demo: 4=609
-4	610	N/A in demo: 4=610
 4	611	(4+4)*44+4[4]+4-4/4
 4	612	(4+4)*44+4[4]+4
 4	613	(4+4/4)[4]+4-4*4
@@ -3378,40 +2712,6 @@
 4	769	4*4*(44+4)+4/4
 4	770	4*4*(44+4)+(4+4)/4
 4	771	(4-4/4)*(4[4]+4/4)
-4	772	N/A in demo: 4=772
-4	773	N/A in demo: 4=773
-4	774	N/A in demo: 4=774
-4	775	N/A in demo: 4=775
-4	776	N/A in demo: 4=776
-4	777	N/A in demo: 4=777
-4	778	N/A in demo: 4=778
-4	779	N/A in demo: 4=779
-4	780	N/A in demo: 4=780
-4	781	N/A in demo: 4=781
-4	782	N/A in demo: 4=782
-4	783	N/A in demo: 4=783
-4	784	N/A in demo: 4=784
-4	785	N/A in demo: 4=785
-4	786	N/A in demo: 4=786
-4	787	N/A in demo: 4=787
-4	788	N/A in demo: 4=788
-4	789	N/A in demo: 4=789
-4	790	N/A in demo: 4=790
-4	791	N/A in demo: 4=791
-4	792	N/A in demo: 4=792
-4	793	N/A in demo: 4=793
-4	794	N/A in demo: 4=794
-4	795	N/A in demo: 4=795
-4	796	N/A in demo: 4=796
-4	797	N/A in demo: 4=797
-4	798	N/A in demo: 4=798
-4	799	N/A in demo: 4=799
-4	800	N/A in demo: 4=800
-4	801	N/A in demo: 4=801
-4	802	N/A in demo: 4=802
-4	803	N/A in demo: 4=803
-4	804	N/A in demo: 4=804
-4	805	N/A in demo: 4=805
 4	806	(44-4)*(4-4/4)[4]/4-4
 4	807	(4*4+4)*(44-4)+4+4-4/4
 4	808	(4*4+4)*(44-4)+4+4
@@ -3503,35 +2803,6 @@
 4	894	(4+4)*(444+4/4)/4+4
 4	895	44*(4-4/4)[4]/4+4
 4	896	4*(4[4]-4*(4+4))
-4	897	N/A in demo: 4=897
-4	898	N/A in demo: 4=898
-4	899	N/A in demo: 4=899
-4	900	N/A in demo: 4=900
-4	901	N/A in demo: 4=901
-4	902	N/A in demo: 4=902
-4	903	N/A in demo: 4=903
-4	904	N/A in demo: 4=904
-4	905	N/A in demo: 4=905
-4	906	N/A in demo: 4=906
-4	907	N/A in demo: 4=907
-4	908	N/A in demo: 4=908
-4	909	N/A in demo: 4=909
-4	910	N/A in demo: 4=910
-4	911	N/A in demo: 4=911
-4	912	N/A in demo: 4=912
-4	913	N/A in demo: 4=913
-4	914	N/A in demo: 4=914
-4	915	N/A in demo: 4=915
-4	916	N/A in demo: 4=916
-4	917	N/A in demo: 4=917
-4	918	N/A in demo: 4=918
-4	919	N/A in demo: 4=919
-4	920	N/A in demo: 4=920
-4	921	N/A in demo: 4=921
-4	922	N/A in demo: 4=922
-4	923	N/A in demo: 4=923
-4	924	N/A in demo: 4=924
-4	925	N/A in demo: 4=925
 4	926	44+4[4]+(4+4/4)[4]+4/4
 4	927	4*(4[4]-4)-(4-4/4)[4]
 4	928	4*(4[4]-4*4-4-4)
@@ -3687,35 +2958,6 @@
 5	178	55+5*5*5-(5+5)/5
 5	179	55+5*5*5-5/5
 5	180	55+5*5*5
-5	181	N/A in demo: 5=181
-5	182	N/A in demo: 5=182
-5	183	N/A in demo: 5=183
-5	184	N/A in demo: 5=184
-5	185	N/A in demo: 5=185
-5	186	N/A in demo: 5=186
-5	187	N/A in demo: 5=187
-5	188	N/A in demo: 5=188
-5	189	N/A in demo: 5=189
-5	190	N/A in demo: 5=190
-5	191	N/A in demo: 5=191
-5	192	N/A in demo: 5=192
-5	193	N/A in demo: 5=193
-5	194	N/A in demo: 5=194
-5	195	N/A in demo: 5=195
-5	196	N/A in demo: 5=196
-5	197	N/A in demo: 5=197
-5	198	N/A in demo: 5=198
-5	199	N/A in demo: 5=199
-5	200	N/A in demo: 5=200
-5	201	N/A in demo: 5=201
-5	202	N/A in demo: 5=202
-5	203	N/A in demo: 5=203
-5	204	N/A in demo: 5=204
-5	205	N/A in demo: 5=205
-5	206	N/A in demo: 5=206
-5	207	N/A in demo: 5=207
-5	208	N/A in demo: 5=208
-5	209	N/A in demo: 5=209
 5	210	(5+5)*(5*5-5)+5+5
 5	211	55+(5[5]-5)/(5*5-5)
 5	212	(55+5[5])/(5+5+5)
@@ -3830,31 +3072,6 @@
 5	321	(5+5)*((5+5)/5)[5]+5/5
 5	322	(5[5]-5)/(5+5)+5+5
 5	323	(5[5]+5)/(5+5)+5+5
-5	324	N/A in demo: 5=324
-5	325	N/A in demo: 5=325
-5	326	N/A in demo: 5=326
-5	327	N/A in demo: 5=327
-5	328	N/A in demo: 5=328
-5	329	N/A in demo: 5=329
-5	330	N/A in demo: 5=330
-5	331	N/A in demo: 5=331
-5	332	N/A in demo: 5=332
-5	333	N/A in demo: 5=333
-5	334	N/A in demo: 5=334
-5	335	N/A in demo: 5=335
-5	336	N/A in demo: 5=336
-5	337	N/A in demo: 5=337
-5	338	N/A in demo: 5=338
-5	339	N/A in demo: 5=339
-5	340	N/A in demo: 5=340
-5	341	N/A in demo: 5=341
-5	342	N/A in demo: 5=342
-5	343	N/A in demo: 5=343
-5	344	N/A in demo: 5=344
-5	345	N/A in demo: 5=345
-5	346	N/A in demo: 5=346
-5	347	N/A in demo: 5=347
-5	348	N/A in demo: 5=348
 5	349	(5[5]-5)/5-5*55
 5	350	5*(55+5+5+5)
 5	351	(5[5]+5)/5-5*55
@@ -4004,59 +3221,6 @@
 5	495	555-55-5
 5	496	555-55-5+5/5
 5	497	555-55-5+(5+5)/5
-5	498	N/A in demo: 5=498
-5	499	N/A in demo: 5=499
-5	500	N/A in demo: 5=500
-5	501	N/A in demo: 5=501
-5	502	N/A in demo: 5=502
-5	503	N/A in demo: 5=503
-5	504	N/A in demo: 5=504
-5	505	N/A in demo: 5=505
-5	506	N/A in demo: 5=506
-5	507	N/A in demo: 5=507
-5	508	N/A in demo: 5=508
-5	509	N/A in demo: 5=509
-5	510	N/A in demo: 5=510
-5	511	N/A in demo: 5=511
-5	512	N/A in demo: 5=512
-5	513	N/A in demo: 5=513
-5	514	N/A in demo: 5=514
-5	515	N/A in demo: 5=515
-5	516	N/A in demo: 5=516
-5	517	N/A in demo: 5=517
-5	518	N/A in demo: 5=518
-5	519	N/A in demo: 5=519
-5	520	N/A in demo: 5=520
-5	521	N/A in demo: 5=521
-5	522	N/A in demo: 5=522
-5	523	N/A in demo: 5=523
-5	524	N/A in demo: 5=524
-5	525	N/A in demo: 5=525
-5	526	N/A in demo: 5=526
-5	527	N/A in demo: 5=527
-5	528	N/A in demo: 5=528
-5	529	N/A in demo: 5=529
-5	530	N/A in demo: 5=530
-5	531	N/A in demo: 5=531
-5	532	N/A in demo: 5=532
-5	533	N/A in demo: 5=533
-5	534	N/A in demo: 5=534
-5	535	N/A in demo: 5=535
-5	536	N/A in demo: 5=536
-5	537	N/A in demo: 5=537
-5	538	N/A in demo: 5=538
-5	539	N/A in demo: 5=539
-5	540	N/A in demo: 5=540
-5	541	N/A in demo: 5=541
-5	542	N/A in demo: 5=542
-5	543	N/A in demo: 5=543
-5	544	N/A in demo: 5=544
-5	545	N/A in demo: 5=545
-5	546	N/A in demo: 5=546
-5	547	N/A in demo: 5=547
-5	548	N/A in demo: 5=548
-5	549	N/A in demo: 5=549
-5	550	N/A in demo: 5=550
 5	551	555-5+5/5
 5	552	555-5+(5+5)/5
 5	553	555-(5+5)/5
@@ -4233,42 +3397,6 @@
 5	724	5*(5*5-5)+(5[5]-5)/5
 5	725	5*(5*(5*5+5)-5)
 5	726	5*(5*(5*5+5)-5)+5/5
-5	727	N/A in demo: 5=727
-5	728	N/A in demo: 5=728
-5	729	N/A in demo: 5=729
-5	730	N/A in demo: 5=730
-5	731	N/A in demo: 5=731
-5	732	N/A in demo: 5=732
-5	733	N/A in demo: 5=733
-5	734	N/A in demo: 5=734
-5	735	N/A in demo: 5=735
-5	736	N/A in demo: 5=736
-5	737	N/A in demo: 5=737
-5	738	N/A in demo: 5=738
-5	739	N/A in demo: 5=739
-5	740	N/A in demo: 5=740
-5	741	N/A in demo: 5=741
-5	742	N/A in demo: 5=742
-5	743	N/A in demo: 5=743
-5	744	N/A in demo: 5=744
-5	745	N/A in demo: 5=745
-5	746	N/A in demo: 5=746
-5	747	N/A in demo: 5=747
-5	748	N/A in demo: 5=748
-5	749	N/A in demo: 5=749
-5	750	N/A in demo: 5=750
-5	751	N/A in demo: 5=751
-5	752	N/A in demo: 5=752
-5	753	N/A in demo: 5=753
-5	754	N/A in demo: 5=754
-5	755	N/A in demo: 5=755
-5	756	N/A in demo: 5=756
-5	757	N/A in demo: 5=757
-5	758	N/A in demo: 5=758
-5	759	N/A in demo: 5=759
-5	760	N/A in demo: 5=760
-5	761	N/A in demo: 5=761
-5	762	N/A in demo: 5=762
 5	763	555+(5[5]-5)/(5+5+5)
 5	764	5*(5*5+5)+(5[5]-55)/5
 5	765	5+5+5+5*5*(5*5+5)
@@ -4339,48 +3467,6 @@
 5	830	55*(5+5+5)+5
 5	831	55*(5+5+5)+5+5/5
 5	832	(5*5+5/5)*((5+5)/5)[5]
-5	833	N/A in demo: 5=833
-5	834	N/A in demo: 5=834
-5	835	N/A in demo: 5=835
-5	836	N/A in demo: 5=836
-5	837	N/A in demo: 5=837
-5	838	N/A in demo: 5=838
-5	839	N/A in demo: 5=839
-5	840	N/A in demo: 5=840
-5	841	N/A in demo: 5=841
-5	842	N/A in demo: 5=842
-5	843	N/A in demo: 5=843
-5	844	N/A in demo: 5=844
-5	845	N/A in demo: 5=845
-5	846	N/A in demo: 5=846
-5	847	N/A in demo: 5=847
-5	848	N/A in demo: 5=848
-5	849	N/A in demo: 5=849
-5	850	N/A in demo: 5=850
-5	851	N/A in demo: 5=851
-5	852	N/A in demo: 5=852
-5	853	N/A in demo: 5=853
-5	854	N/A in demo: 5=854
-5	855	N/A in demo: 5=855
-5	856	N/A in demo: 5=856
-5	857	N/A in demo: 5=857
-5	858	N/A in demo: 5=858
-5	859	N/A in demo: 5=859
-5	860	N/A in demo: 5=860
-5	861	N/A in demo: 5=861
-5	862	N/A in demo: 5=862
-5	863	N/A in demo: 5=863
-5	864	N/A in demo: 5=864
-5	865	N/A in demo: 5=865
-5	866	N/A in demo: 5=866
-5	867	N/A in demo: 5=867
-5	868	N/A in demo: 5=868
-5	869	N/A in demo: 5=869
-5	870	N/A in demo: 5=870
-5	871	N/A in demo: 5=871
-5	872	N/A in demo: 5=872
-5	873	N/A in demo: 5=873
-5	874	N/A in demo: 5=874
 5	875	5*5*(5*5+5+5)
 5	876	5*5*(5*5+5+5)+5/5
 5	877	5*5*(5*5+5+5)+(5+5)/5
@@ -4515,46 +3601,6 @@
 6	106	(666+6)/6-6
 6	107	6*(6+6+6)-6/6
 6	108	6*(6+6+6)
-6	109	N/A in demo: 6=109
-6	110	N/A in demo: 6=110
-6	111	N/A in demo: 6=111
-6	112	N/A in demo: 6=112
-6	113	N/A in demo: 6=113
-6	114	N/A in demo: 6=114
-6	115	N/A in demo: 6=115
-6	116	N/A in demo: 6=116
-6	117	N/A in demo: 6=117
-6	118	N/A in demo: 6=118
-6	119	N/A in demo: 6=119
-6	120	N/A in demo: 6=120
-6	121	N/A in demo: 6=121
-6	122	N/A in demo: 6=122
-6	123	N/A in demo: 6=123
-6	124	N/A in demo: 6=124
-6	125	N/A in demo: 6=125
-6	126	N/A in demo: 6=126
-6	127	N/A in demo: 6=127
-6	128	N/A in demo: 6=128
-6	129	N/A in demo: 6=129
-6	130	N/A in demo: 6=130
-6	131	N/A in demo: 6=131
-6	132	N/A in demo: 6=132
-6	133	N/A in demo: 6=133
-6	134	N/A in demo: 6=134
-6	135	N/A in demo: 6=135
-6	136	N/A in demo: 6=136
-6	137	N/A in demo: 6=137
-6	138	N/A in demo: 6=138
-6	139	N/A in demo: 6=139
-6	140	N/A in demo: 6=140
-6	141	N/A in demo: 6=141
-6	142	N/A in demo: 6=142
-6	143	N/A in demo: 6=143
-6	144	N/A in demo: 6=144
-6	145	N/A in demo: 6=145
-6	146	N/A in demo: 6=146
-6	147	N/A in demo: 6=147
-6	148	N/A in demo: 6=148
 6	149	(6+6)*(6+6)+6-6/6
 6	150	(6+6)*(6+6)+6
 6	151	(6+6)*(6+6)+6+6/6
@@ -4712,43 +3758,6 @@
 6	303	6*6*66/(6+(6+6)/6)+6
 6	304	(6+(6+6)/6)*(6*6+(6+6)/6)
 6	305	(6-6/6)*(66-6+6/6)
-6	306	N/A in demo: 6=306
-6	307	N/A in demo: 6=307
-6	308	N/A in demo: 6=308
-6	309	N/A in demo: 6=309
-6	310	N/A in demo: 6=310
-6	311	N/A in demo: 6=311
-6	312	N/A in demo: 6=312
-6	313	N/A in demo: 6=313
-6	314	N/A in demo: 6=314
-6	315	N/A in demo: 6=315
-6	316	N/A in demo: 6=316
-6	317	N/A in demo: 6=317
-6	318	N/A in demo: 6=318
-6	319	N/A in demo: 6=319
-6	320	N/A in demo: 6=320
-6	321	N/A in demo: 6=321
-6	322	N/A in demo: 6=322
-6	323	N/A in demo: 6=323
-6	324	N/A in demo: 6=324
-6	325	N/A in demo: 6=325
-6	326	N/A in demo: 6=326
-6	327	N/A in demo: 6=327
-6	328	N/A in demo: 6=328
-6	329	N/A in demo: 6=329
-6	330	N/A in demo: 6=330
-6	331	N/A in demo: 6=331
-6	332	N/A in demo: 6=332
-6	333	N/A in demo: 6=333
-6	334	N/A in demo: 6=334
-6	335	N/A in demo: 6=335
-6	336	N/A in demo: 6=336
-6	337	N/A in demo: 6=337
-6	338	N/A in demo: 6=338
-6	339	N/A in demo: 6=339
-6	340	N/A in demo: 6=340
-6	341	N/A in demo: 6=341
-6	342	N/A in demo: 6=342
 6	343	(6+6/6)[(6*6/(6+6))]
 6	344	6*66+6+6-((6+6)/6)[6]
 6	345	6*666/(6+6)+6+6
@@ -4973,44 +3982,6 @@
 6	564	66+(6+6)*(6*6+6)-6
 6	565	66+(6+6)*(6*6+6)-6+6/6
 6	566	(6-6/6)*(666+6)/6+6
-6	567	N/A in demo: 6=567
-6	568	N/A in demo: 6=568
-6	569	N/A in demo: 6=569
-6	570	N/A in demo: 6=570
-6	571	N/A in demo: 6=571
-6	572	N/A in demo: 6=572
-6	573	N/A in demo: 6=573
-6	574	N/A in demo: 6=574
-6	575	N/A in demo: 6=575
-6	576	N/A in demo: 6=576
-6	577	N/A in demo: 6=577
-6	578	N/A in demo: 6=578
-6	579	N/A in demo: 6=579
-6	580	N/A in demo: 6=580
-6	581	N/A in demo: 6=581
-6	582	N/A in demo: 6=582
-6	583	N/A in demo: 6=583
-6	584	N/A in demo: 6=584
-6	585	N/A in demo: 6=585
-6	586	N/A in demo: 6=586
-6	587	N/A in demo: 6=587
-6	588	N/A in demo: 6=588
-6	589	N/A in demo: 6=589
-6	590	N/A in demo: 6=590
-6	591	N/A in demo: 6=591
-6	592	N/A in demo: 6=592
-6	593	N/A in demo: 6=593
-6	594	N/A in demo: 6=594
-6	595	N/A in demo: 6=595
-6	596	N/A in demo: 6=596
-6	597	N/A in demo: 6=597
-6	598	N/A in demo: 6=598
-6	599	N/A in demo: 6=599
-6	600	N/A in demo: 6=600
-6	601	N/A in demo: 6=601
-6	602	N/A in demo: 6=602
-6	603	N/A in demo: 6=603
-6	604	N/A in demo: 6=604
 6	605	666-66+6-6/6
 6	606	666-66+6
 6	607	666-66+6+6/6
@@ -5123,48 +4094,6 @@
 6	714	(6+6)*(66-6)-6
 6	715	66*(66-6/6)/6
 6	716	(66*(66-6/6)+6)/6
-6	717	N/A in demo: 6=717
-6	718	N/A in demo: 6=718
-6	719	N/A in demo: 6=719
-6	720	N/A in demo: 6=720
-6	721	N/A in demo: 6=721
-6	722	N/A in demo: 6=722
-6	723	N/A in demo: 6=723
-6	724	N/A in demo: 6=724
-6	725	N/A in demo: 6=725
-6	726	N/A in demo: 6=726
-6	727	N/A in demo: 6=727
-6	728	N/A in demo: 6=728
-6	729	N/A in demo: 6=729
-6	730	N/A in demo: 6=730
-6	731	N/A in demo: 6=731
-6	732	N/A in demo: 6=732
-6	733	N/A in demo: 6=733
-6	734	N/A in demo: 6=734
-6	735	N/A in demo: 6=735
-6	736	N/A in demo: 6=736
-6	737	N/A in demo: 6=737
-6	738	N/A in demo: 6=738
-6	739	N/A in demo: 6=739
-6	740	N/A in demo: 6=740
-6	741	N/A in demo: 6=741
-6	742	N/A in demo: 6=742
-6	743	N/A in demo: 6=743
-6	744	N/A in demo: 6=744
-6	745	N/A in demo: 6=745
-6	746	N/A in demo: 6=746
-6	747	N/A in demo: 6=747
-6	748	N/A in demo: 6=748
-6	749	N/A in demo: 6=749
-6	750	N/A in demo: 6=750
-6	751	N/A in demo: 6=751
-6	752	N/A in demo: 6=752
-6	753	N/A in demo: 6=753
-6	754	N/A in demo: 6=754
-6	755	N/A in demo: 6=755
-6	756	N/A in demo: 6=756
-6	757	N/A in demo: 6=757
-6	758	N/A in demo: 6=758
 6	759	6*6-6+(6*6/(6+6))[6]
 6	760	6*6+(66*66-6-6)/6
 6	761	6*6+(66*66-6)/6
@@ -5341,46 +4270,6 @@
 6	932	66+6*(6+6)*(6+6)+(6+6)/6
 6	933	6*6*6-6-6+(6*6/(6+6))[6]
 6	934	(6+6)*(66+6+6)-(6+6)/6
-6	935	N/A in demo: 6=935
-6	936	N/A in demo: 6=936
-6	937	N/A in demo: 6=937
-6	938	N/A in demo: 6=938
-6	939	N/A in demo: 6=939
-6	940	N/A in demo: 6=940
-6	941	N/A in demo: 6=941
-6	942	N/A in demo: 6=942
-6	943	N/A in demo: 6=943
-6	944	N/A in demo: 6=944
-6	945	N/A in demo: 6=945
-6	946	N/A in demo: 6=946
-6	947	N/A in demo: 6=947
-6	948	N/A in demo: 6=948
-6	949	N/A in demo: 6=949
-6	950	N/A in demo: 6=950
-6	951	N/A in demo: 6=951
-6	952	N/A in demo: 6=952
-6	953	N/A in demo: 6=953
-6	954	N/A in demo: 6=954
-6	955	N/A in demo: 6=955
-6	956	N/A in demo: 6=956
-6	957	N/A in demo: 6=957
-6	958	N/A in demo: 6=958
-6	959	N/A in demo: 6=959
-6	960	N/A in demo: 6=960
-6	961	N/A in demo: 6=961
-6	962	N/A in demo: 6=962
-6	963	N/A in demo: 6=963
-6	964	N/A in demo: 6=964
-6	965	N/A in demo: 6=965
-6	966	N/A in demo: 6=966
-6	967	N/A in demo: 6=967
-6	968	N/A in demo: 6=968
-6	969	N/A in demo: 6=969
-6	970	N/A in demo: 6=970
-6	971	N/A in demo: 6=971
-6	972	N/A in demo: 6=972
-6	973	N/A in demo: 6=973
-6	974	N/A in demo: 6=974
 6	975	6*(6+6)*(6+6)+666/6
 6	976	(666+66)*(6+(6+6)/6)/6
 6	977	(6+6+6)*(66-6-6)+6-6/6
@@ -5455,44 +4344,6 @@
 7	146	7*(7+7+7)-7/7
 7	147	7*(7+7+7)
 7	148	7*(7+7+7)+7/7
-7	149	N/A in demo: 7=149
-7	150	N/A in demo: 7=150
-7	151	N/A in demo: 7=151
-7	152	N/A in demo: 7=152
-7	153	N/A in demo: 7=153
-7	154	N/A in demo: 7=154
-7	155	N/A in demo: 7=155
-7	156	N/A in demo: 7=156
-7	157	N/A in demo: 7=157
-7	158	N/A in demo: 7=158
-7	159	N/A in demo: 7=159
-7	160	N/A in demo: 7=160
-7	161	N/A in demo: 7=161
-7	162	N/A in demo: 7=162
-7	163	N/A in demo: 7=163
-7	164	N/A in demo: 7=164
-7	165	N/A in demo: 7=165
-7	166	N/A in demo: 7=166
-7	167	N/A in demo: 7=167
-7	168	N/A in demo: 7=168
-7	169	N/A in demo: 7=169
-7	170	N/A in demo: 7=170
-7	171	N/A in demo: 7=171
-7	172	N/A in demo: 7=172
-7	173	N/A in demo: 7=173
-7	174	N/A in demo: 7=174
-7	175	N/A in demo: 7=175
-7	176	N/A in demo: 7=176
-7	177	N/A in demo: 7=177
-7	178	N/A in demo: 7=178
-7	179	N/A in demo: 7=179
-7	180	N/A in demo: 7=180
-7	181	N/A in demo: 7=181
-7	182	N/A in demo: 7=182
-7	183	N/A in demo: 7=183
-7	184	N/A in demo: 7=184
-7	185	N/A in demo: 7=185
-7	186	N/A in demo: 7=186
 7	187	77+(777-7)/7
 7	188	77+777/7
 7	189	(7+7)*(7+7)-7
@@ -5631,51 +4482,6 @@
 7	322	7*7*7-7-7-7
 7	323	7*7*7-7-7-7+7/7
 7	324	(77/7+7)[((7+7)/7)]
-7	325	N/A in demo: 7=325
-7	326	N/A in demo: 7=326
-7	327	N/A in demo: 7=327
-7	328	N/A in demo: 7=328
-7	329	N/A in demo: 7=329
-7	330	N/A in demo: 7=330
-7	331	N/A in demo: 7=331
-7	332	N/A in demo: 7=332
-7	333	N/A in demo: 7=333
-7	334	N/A in demo: 7=334
-7	335	N/A in demo: 7=335
-7	336	N/A in demo: 7=336
-7	337	N/A in demo: 7=337
-7	338	N/A in demo: 7=338
-7	339	N/A in demo: 7=339
-7	340	N/A in demo: 7=340
-7	341	N/A in demo: 7=341
-7	342	N/A in demo: 7=342
-7	343	N/A in demo: 7=343
-7	344	N/A in demo: 7=344
-7	345	N/A in demo: 7=345
-7	346	N/A in demo: 7=346
-7	347	N/A in demo: 7=347
-7	348	N/A in demo: 7=348
-7	349	N/A in demo: 7=349
-7	350	N/A in demo: 7=350
-7	351	N/A in demo: 7=351
-7	352	N/A in demo: 7=352
-7	353	N/A in demo: 7=353
-7	354	N/A in demo: 7=354
-7	355	N/A in demo: 7=355
-7	356	N/A in demo: 7=356
-7	357	N/A in demo: 7=357
-7	358	N/A in demo: 7=358
-7	359	N/A in demo: 7=359
-7	360	N/A in demo: 7=360
-7	361	N/A in demo: 7=361
-7	362	N/A in demo: 7=362
-7	363	N/A in demo: 7=363
-7	364	N/A in demo: 7=364
-7	365	N/A in demo: 7=365
-7	366	N/A in demo: 7=366
-7	367	N/A in demo: 7=367
-7	368	N/A in demo: 7=368
-7	369	N/A in demo: 7=369
 7	370	7*(7*7-7)+77-7/7
 7	371	7*(7*7-7)+77
 7	372	7*(7*7-7)+77+7/7
@@ -5811,39 +4617,6 @@
 7	502	7*(77-7)+(7+77)/7
 7	503	7*(7*7+7)+777/7
 7	504	7*(77-7)+7+7
-7	505	N/A in demo: 7=505
-7	506	N/A in demo: 7=506
-7	507	N/A in demo: 7=507
-7	508	N/A in demo: 7=508
-7	509	N/A in demo: 7=509
-7	510	N/A in demo: 7=510
-7	511	N/A in demo: 7=511
-7	512	N/A in demo: 7=512
-7	513	N/A in demo: 7=513
-7	514	N/A in demo: 7=514
-7	515	N/A in demo: 7=515
-7	516	N/A in demo: 7=516
-7	517	N/A in demo: 7=517
-7	518	N/A in demo: 7=518
-7	519	N/A in demo: 7=519
-7	520	N/A in demo: 7=520
-7	521	N/A in demo: 7=521
-7	522	N/A in demo: 7=522
-7	523	N/A in demo: 7=523
-7	524	N/A in demo: 7=524
-7	525	N/A in demo: 7=525
-7	526	N/A in demo: 7=526
-7	527	N/A in demo: 7=527
-7	528	N/A in demo: 7=528
-7	529	N/A in demo: 7=529
-7	530	N/A in demo: 7=530
-7	531	N/A in demo: 7=531
-7	532	N/A in demo: 7=532
-7	533	N/A in demo: 7=533
-7	534	N/A in demo: 7=534
-7	535	N/A in demo: 7=535
-7	536	N/A in demo: 7=536
-7	537	N/A in demo: 7=537
 7	538	7*77-7/7
 7	539	7*77
 7	540	7*77+7/7
@@ -5997,59 +4770,6 @@
 7	688	7*7*(7+7)+(7+7)/7
 7	689	777-77-77/7
 7	690	7*7*(7+7)-7+77/7
-7	691	N/A in demo: 7=691
-7	692	N/A in demo: 7=692
-7	693	N/A in demo: 7=693
-7	694	N/A in demo: 7=694
-7	695	N/A in demo: 7=695
-7	696	N/A in demo: 7=696
-7	697	N/A in demo: 7=697
-7	698	N/A in demo: 7=698
-7	699	N/A in demo: 7=699
-7	700	N/A in demo: 7=700
-7	701	N/A in demo: 7=701
-7	702	N/A in demo: 7=702
-7	703	N/A in demo: 7=703
-7	704	N/A in demo: 7=704
-7	705	N/A in demo: 7=705
-7	706	N/A in demo: 7=706
-7	707	N/A in demo: 7=707
-7	708	N/A in demo: 7=708
-7	709	N/A in demo: 7=709
-7	710	N/A in demo: 7=710
-7	711	N/A in demo: 7=711
-7	712	N/A in demo: 7=712
-7	713	N/A in demo: 7=713
-7	713	N/A in demo: 7=713
-7	714	N/A in demo: 7=714
-7	715	N/A in demo: 7=715
-7	716	N/A in demo: 7=716
-7	717	N/A in demo: 7=717
-7	718	N/A in demo: 7=718
-7	719	N/A in demo: 7=719
-7	720	N/A in demo: 7=720
-7	721	N/A in demo: 7=721
-7	722	N/A in demo: 7=722
-7	723	N/A in demo: 7=723
-7	724	N/A in demo: 7=724
-7	725	N/A in demo: 7=725
-7	726	N/A in demo: 7=726
-7	727	N/A in demo: 7=727
-7	728	N/A in demo: 7=728
-7	729	N/A in demo: 7=729
-7	730	N/A in demo: 7=730
-7	731	N/A in demo: 7=731
-7	732	N/A in demo: 7=732
-7	733	N/A in demo: 7=733
-7	734	N/A in demo: 7=734
-7	735	N/A in demo: 7=735
-7	736	N/A in demo: 7=736
-7	737	N/A in demo: 7=737
-7	738	N/A in demo: 7=738
-7	739	N/A in demo: 7=739
-7	740	N/A in demo: 7=740
-7	741	N/A in demo: 7=741
-7	742	N/A in demo: 7=742
 7	743	7*(7*(7+7)+7)+7+7/7
 7	744	7*77+77+((7+7)/7)[7]
 7	745	777-7-7-7-77/7
@@ -6109,42 +4829,6 @@
 7	799	777+7+7+7+7/7
 7	800	(7*7+7/7)*(7+7+(7+7)/7)
 7	801	777+7+7+(77-7)/7
-7	802	N/A in demo: 7=802
-7	803	N/A in demo: 7=803
-7	804	N/A in demo: 7=804
-7	805	N/A in demo: 7=805
-7	806	N/A in demo: 7=806
-7	807	N/A in demo: 7=807
-7	808	N/A in demo: 7=808
-7	809	N/A in demo: 7=809
-7	810	N/A in demo: 7=810
-7	811	N/A in demo: 7=811
-7	812	N/A in demo: 7=812
-7	813	N/A in demo: 7=813
-7	814	N/A in demo: 7=814
-7	815	N/A in demo: 7=815
-7	816	N/A in demo: 7=816
-7	817	N/A in demo: 7=817
-7	818	N/A in demo: 7=818
-7	819	N/A in demo: 7=819
-7	820	N/A in demo: 7=820
-7	821	N/A in demo: 7=821
-7	822	N/A in demo: 7=822
-7	823	N/A in demo: 7=823
-7	824	N/A in demo: 7=824
-7	825	N/A in demo: 7=825
-7	826	N/A in demo: 7=826
-7	827	N/A in demo: 7=827
-7	828	N/A in demo: 7=828
-7	829	N/A in demo: 7=829
-7	830	N/A in demo: 7=830
-7	831	N/A in demo: 7=831
-7	832	N/A in demo: 7=832
-7	833	N/A in demo: 7=833
-7	834	N/A in demo: 7=834
-7	835	N/A in demo: 7=835
-7	836	N/A in demo: 7=836
-7	837	N/A in demo: 7=837
 7	838	(77*77-7-7)/7-7
 7	839	(77*77-7)/7-7
 7	840	77*77/7-7
@@ -6256,33 +4940,6 @@
 7	946	7*(((7+7)/7)[7]+7)+7/7
 7	947	7*(((7+7)/7)[7]+7)+(7+7)/7
 7	948	(77+7)*(77+(7+7)/7)/7
-7	949	N/A in demo: 7=949
-7	950	N/A in demo: 7=950
-7	951	N/A in demo: 7=951
-7	952	N/A in demo: 7=952
-7	953	N/A in demo: 7=953
-7	954	N/A in demo: 7=954
-7	955	N/A in demo: 7=955
-7	956	N/A in demo: 7=956
-7	957	N/A in demo: 7=957
-7	958	N/A in demo: 7=958
-7	959	N/A in demo: 7=959
-7	960	N/A in demo: 7=960
-7	961	N/A in demo: 7=961
-7	962	N/A in demo: 7=962
-7	963	N/A in demo: 7=963
-7	964	N/A in demo: 7=964
-7	965	N/A in demo: 7=965
-7	966	N/A in demo: 7=966
-7	967	N/A in demo: 7=967
-7	968	N/A in demo: 7=968
-7	969	N/A in demo: 7=969
-7	970	N/A in demo: 7=970
-7	971	N/A in demo: 7=971
-7	972	N/A in demo: 7=972
-7	973	N/A in demo: 7=973
-7	974	N/A in demo: 7=974
-7	975	N/A in demo: 7=975
 7	976	(7+7)*(77-7)+7-77/7
 7	977	(7+7)*(77-7)-(7+7+7)/7
 7	978	(7+7)*(77-7)-(7+7)/7
@@ -6487,39 +5144,6 @@
 8	277	88+8*(8+8+8)-(8+8+8)/8
 8	278	(8*(8+8)+88/8)*(8+8)/8
 8	279	8*(8+8+8)+88-8/8
-8	280	N/A in demo: 8=280
-8	281	N/A in demo: 8=281
-8	282	N/A in demo: 8=282
-8	283	N/A in demo: 8=283
-8	284	N/A in demo: 8=284
-8	285	N/A in demo: 8=285
-8	286	N/A in demo: 8=286
-8	287	N/A in demo: 8=287
-8	288	N/A in demo: 8=288
-8	289	N/A in demo: 8=289
-8	290	N/A in demo: 8=290
-8	291	N/A in demo: 8=291
-8	292	N/A in demo: 8=292
-8	293	N/A in demo: 8=293
-8	294	N/A in demo: 8=294
-8	295	N/A in demo: 8=295
-8	296	N/A in demo: 8=296
-8	297	N/A in demo: 8=297
-8	298	N/A in demo: 8=298
-8	299	N/A in demo: 8=299
-8	300	N/A in demo: 8=300
-8	301	N/A in demo: 8=301
-8	302	N/A in demo: 8=302
-8	303	N/A in demo: 8=303
-8	304	N/A in demo: 8=304
-8	305	N/A in demo: 8=305
-8	306	N/A in demo: 8=306
-8	307	N/A in demo: 8=307
-8	308	N/A in demo: 8=308
-8	309	N/A in demo: 8=309
-8	310	N/A in demo: 8=310
-8	311	N/A in demo: 8=311
-8	312	N/A in demo: 8=312
 8	313	(8+8)*(8+8)+8*8-8+8/8
 8	314	(8+8)*(8+8)+8*8-8+(8+8)/8
 8	315	(8*8-8/8)*(8-(8+8+8)/8)
@@ -6647,51 +5271,6 @@
 8	437	8*(8*8-8)-88/8
 8	438	8*(8*8-8)-(88-8)/8
 8	439	8*(8*8-8)-8-8/8
-8	440	N/A in demo: 8=440
-8	441	N/A in demo: 8=441
-8	442	N/A in demo: 8=442
-8	443	N/A in demo: 8=443
-8	444	N/A in demo: 8=444
-8	445	N/A in demo: 8=445
-8	446	N/A in demo: 8=446
-8	447	N/A in demo: 8=447
-8	448	N/A in demo: 8=448
-8	449	N/A in demo: 8=449
-8	450	N/A in demo: 8=450
-8	451	N/A in demo: 8=451
-8	452	N/A in demo: 8=452
-8	453	N/A in demo: 8=453
-8	454	N/A in demo: 8=454
-8	455	N/A in demo: 8=455
-8	456	N/A in demo: 8=456
-8	457	N/A in demo: 8=457
-8	458	N/A in demo: 8=458
-8	459	N/A in demo: 8=459
-8	460	N/A in demo: 8=460
-8	461	N/A in demo: 8=461
-8	462	N/A in demo: 8=462
-8	463	N/A in demo: 8=463
-8	464	N/A in demo: 8=464
-8	465	N/A in demo: 8=465
-8	466	N/A in demo: 8=466
-8	467	N/A in demo: 8=467
-8	468	N/A in demo: 8=468
-8	469	N/A in demo: 8=469
-8	470	N/A in demo: 8=470
-8	471	N/A in demo: 8=471
-8	472	N/A in demo: 8=472
-8	473	N/A in demo: 8=473
-8	474	N/A in demo: 8=474
-8	475	N/A in demo: 8=475
-8	476	N/A in demo: 8=476
-8	477	N/A in demo: 8=477
-8	478	N/A in demo: 8=478
-8	479	N/A in demo: 8=479
-8	480	N/A in demo: 8=480
-8	481	N/A in demo: 8=481
-8	482	N/A in demo: 8=482
-8	483	N/A in demo: 8=483
-8	484	N/A in demo: 8=484
 8	485	8*8*8-8-8-88/8
 8	486	(88-8+8/8)*(8-(8+8)/8)
 8	487	8*8*8-8-8-8-8/8
@@ -6845,47 +5424,6 @@
 8	635	8*(88-8)-8-8+88/8
 8	636	8*(88-8-8/(8+8))
 8	637	8*(88-8)+8-88/8
-8	638	N/A in demo: 8=638
-8	639	N/A in demo: 8=639
-8	640	N/A in demo: 8=640
-8	641	N/A in demo: 8=641
-8	642	N/A in demo: 8=642
-8	643	N/A in demo: 8=643
-8	644	N/A in demo: 8=644
-8	645	N/A in demo: 8=645
-8	646	N/A in demo: 8=646
-8	647	N/A in demo: 8=647
-8	648	N/A in demo: 8=648
-8	649	N/A in demo: 8=649
-8	650	N/A in demo: 8=650
-8	651	N/A in demo: 8=651
-8	652	N/A in demo: 8=652
-8	653	N/A in demo: 8=653
-8	654	N/A in demo: 8=654
-8	655	N/A in demo: 8=655
-8	656	N/A in demo: 8=656
-8	657	N/A in demo: 8=657
-8	658	N/A in demo: 8=658
-8	659	N/A in demo: 8=659
-8	660	N/A in demo: 8=660
-8	661	N/A in demo: 8=661
-8	662	N/A in demo: 8=662
-8	663	N/A in demo: 8=663
-8	664	N/A in demo: 8=664
-8	665	N/A in demo: 8=665
-8	666	N/A in demo: 8=666
-8	667	N/A in demo: 8=667
-8	668	N/A in demo: 8=668
-8	669	N/A in demo: 8=669
-8	670	N/A in demo: 8=670
-8	671	N/A in demo: 8=671
-8	672	N/A in demo: 8=672
-8	673	N/A in demo: 8=673
-8	674	N/A in demo: 8=674
-8	675	N/A in demo: 8=675
-8	676	N/A in demo: 8=676
-8	677	N/A in demo: 8=677
-8	678	N/A in demo: 8=678
 8	679	8*(88+8)-88-8/8
 8	680	8*(88+8)-88
 8	681	8*(88+8)-88+8/8
@@ -6929,46 +5467,6 @@
 8	719	8*88+8+8-8/8
 8	720	8*88+8+8
 8	721	8*88+8+8+8/8
-8	722	N/A in demo: 8=722
-8	723	N/A in demo: 8=723
-8	724	N/A in demo: 8=724
-8	725	N/A in demo: 8=725
-8	726	N/A in demo: 8=726
-8	727	N/A in demo: 8=727
-8	728	N/A in demo: 8=728
-8	729	N/A in demo: 8=729
-8	730	N/A in demo: 8=730
-8	731	N/A in demo: 8=731
-8	732	N/A in demo: 8=732
-8	733	N/A in demo: 8=733
-8	734	N/A in demo: 8=734
-8	735	N/A in demo: 8=735
-8	736	N/A in demo: 8=736
-8	736	N/A in demo: 8=736
-8	737	N/A in demo: 8=737
-8	738	N/A in demo: 8=738
-8	739	N/A in demo: 8=739
-8	740	N/A in demo: 8=740
-8	741	N/A in demo: 8=741
-8	742	N/A in demo: 8=742
-8	743	N/A in demo: 8=743
-8	744	N/A in demo: 8=744
-8	745	N/A in demo: 8=745
-8	746	N/A in demo: 8=746
-8	747	N/A in demo: 8=747
-8	748	N/A in demo: 8=748
-8	749	N/A in demo: 8=749
-8	750	N/A in demo: 8=750
-8	751	N/A in demo: 8=751
-8	752	N/A in demo: 8=752
-8	753	N/A in demo: 8=753
-8	754	N/A in demo: 8=754
-8	755	N/A in demo: 8=755
-8	756	N/A in demo: 8=756
-8	757	N/A in demo: 8=757
-8	758	N/A in demo: 8=758
-8	759	N/A in demo: 8=759
-8	760	N/A in demo: 8=760
 8	761	8*(88+8)-8+8/8
 8	762	8*(88+8)-8+(8+8)/8
 8	763	8*(88+8)-8+(8+8+8)/8
@@ -7075,37 +5573,6 @@
 8	864	888-8-8-8
 8	865	888-8-8-8+8/8
 8	866	888-8-8-8+(8+8)/8
-8	867	N/A in demo: 8=867
-8	868	N/A in demo: 8=868
-8	869	N/A in demo: 8=869
-8	870	N/A in demo: 8=870
-8	871	N/A in demo: 8=871
-8	872	N/A in demo: 8=872
-8	873	N/A in demo: 8=873
-8	874	N/A in demo: 8=874
-8	875	N/A in demo: 8=875
-8	876	N/A in demo: 8=876
-8	877	N/A in demo: 8=877
-8	878	N/A in demo: 8=878
-8	879	N/A in demo: 8=879
-8	880	N/A in demo: 8=880
-8	881	N/A in demo: 8=881
-8	882	N/A in demo: 8=882
-8	883	N/A in demo: 8=883
-8	884	N/A in demo: 8=884
-8	885	N/A in demo: 8=885
-8	886	N/A in demo: 8=886
-8	887	N/A in demo: 8=887
-8	888	N/A in demo: 8=888
-8	889	N/A in demo: 8=889
-8	890	N/A in demo: 8=890
-8	891	N/A in demo: 8=891
-8	892	N/A in demo: 8=892
-8	893	N/A in demo: 8=893
-8	894	N/A in demo: 8=894
-8	895	N/A in demo: 8=895
-8	896	N/A in demo: 8=896
-8	897	N/A in demo: 8=897
 8	898	888+8+(8+8)/8
 8	899	888+88/8
 8	900	888+(88+8)/8
@@ -7204,53 +5671,6 @@
 8	993	888+88+8+8+8/8
 8	994	888+88+8+8+(8+8)/8
 8	995	888+88+8+88/8
-8	996	N/A in demo: 8=996
-8	997	N/A in demo: 8=997
-8	998	N/A in demo: 8=998
-8	999	N/A in demo: 8=999
-8	1000	N/A in demo: 8=1000
-9	101	N/A in demo: 9=101
-9	102	N/A in demo: 9=102
-9	103	N/A in demo: 9=103
-9	104	N/A in demo: 9=104
-9	105	N/A in demo: 9=105
-9	106	N/A in demo: 9=106
-9	107	N/A in demo: 9=107
-9	108	N/A in demo: 9=108
-9	109	N/A in demo: 9=109
-9	110	N/A in demo: 9=110
-9	111	N/A in demo: 9=111
-9	112	N/A in demo: 9=112
-9	113	N/A in demo: 9=113
-9	114	N/A in demo: 9=114
-9	115	N/A in demo: 9=115
-9	116	N/A in demo: 9=116
-9	117	N/A in demo: 9=117
-9	118	N/A in demo: 9=118
-9	119	N/A in demo: 9=119
-9	120	N/A in demo: 9=120
-9	121	N/A in demo: 9=121
-9	122	N/A in demo: 9=122
-9	123	N/A in demo: 9=123
-9	124	N/A in demo: 9=124
-9	125	N/A in demo: 9=125
-9	126	N/A in demo: 9=126
-9	127	N/A in demo: 9=127
-9	128	N/A in demo: 9=128
-9	129	N/A in demo: 9=129
-9	130	N/A in demo: 9=130
-9	131	N/A in demo: 9=131
-9	132	N/A in demo: 9=132
-9	133	N/A in demo: 9=133
-9	134	N/A in demo: 9=134
-9	135	N/A in demo: 9=135
-9	136	N/A in demo: 9=136
-9	137	N/A in demo: 9=137
-9	138	N/A in demo: 9=138
-9	139	N/A in demo: 9=139
-9	140	N/A in demo: 9=140
-9	141	N/A in demo: 9=141
-9	142	N/A in demo: 9=142
 9	143	9*(9+9)-9-9-9/9
 9	144	(9+9)*(9-9/9)
 9	145	9*(9+9)-9-9+9/9
@@ -7343,52 +5763,6 @@
 9	232	9*(9+9+9)-99/9
 9	233	9*(9+9+9)-9-9/9
 9	234	9*(9+9+9)-9
-9	235	N/A in demo: 9=235
-9	236	N/A in demo: 9=236
-9	237	N/A in demo: 9=237
-9	238	N/A in demo: 9=238
-9	239	N/A in demo: 9=239
-9	240	N/A in demo: 9=240
-9	241	N/A in demo: 9=241
-9	242	N/A in demo: 9=242
-9	243	N/A in demo: 9=243
-9	244	N/A in demo: 9=244
-9	245	N/A in demo: 9=245
-9	246	N/A in demo: 9=246
-9	247	N/A in demo: 9=247
-9	248	N/A in demo: 9=248
-9	249	N/A in demo: 9=249
-9	250	N/A in demo: 9=250
-9	251	N/A in demo: 9=251
-9	252	N/A in demo: 9=252
-9	253	N/A in demo: 9=253
-9	254	N/A in demo: 9=254
-9	255	N/A in demo: 9=255
-9	256	N/A in demo: 9=256
-9	257	N/A in demo: 9=257
-9	258	N/A in demo: 9=258
-9	259	N/A in demo: 9=259
-9	260	N/A in demo: 9=260
-9	261	N/A in demo: 9=261
-9	262	N/A in demo: 9=262
-9	263	N/A in demo: 9=263
-9	264	N/A in demo: 9=264
-9	265	N/A in demo: 9=265
-9	266	N/A in demo: 9=266
-9	267	N/A in demo: 9=267
-9	268	N/A in demo: 9=268
-9	269	N/A in demo: 9=269
-9	270	N/A in demo: 9=270
-9	271	N/A in demo: 9=271
-9	272	N/A in demo: 9=272
-9	273	N/A in demo: 9=273
-9	274	N/A in demo: 9=274
-9	275	N/A in demo: 9=275
-9	276	N/A in demo: 9=276
-9	277	N/A in demo: 9=277
-9	278	N/A in demo: 9=278
-9	279	N/A in demo: 9=279
-9	280	N/A in demo: 9=280
 9	281	999-9*9*9+99/9
 9	282	9*(9+9)+9+999/9
 9	283	9*(9+9)+9+(999+9)/9
@@ -7447,45 +5821,6 @@
 9	336	(9+9)*(9+9)+(99+9)/9
 9	337	9*9+((9+9)/9)[(9-9/9)]
 9	338	9*9+((9+9)/9)[(9-9/9)]+9/9
-9	339	N/A in demo: 9=339
-9	340	N/A in demo: 9=340
-9	341	N/A in demo: 9=341
-9	342	N/A in demo: 9=342
-9	343	N/A in demo: 9=343
-9	344	N/A in demo: 9=344
-9	345	N/A in demo: 9=345
-9	346	N/A in demo: 9=346
-9	347	N/A in demo: 9=347
-9	348	N/A in demo: 9=348
-9	349	N/A in demo: 9=349
-9	350	N/A in demo: 9=350
-9	351	N/A in demo: 9=351
-9	352	N/A in demo: 9=352
-9	353	N/A in demo: 9=353
-9	354	N/A in demo: 9=354
-9	355	N/A in demo: 9=355
-9	356	N/A in demo: 9=356
-9	357	N/A in demo: 9=357
-9	358	N/A in demo: 9=358
-9	359	N/A in demo: 9=359
-9	360	N/A in demo: 9=360
-9	361	N/A in demo: 9=361
-9	362	N/A in demo: 9=362
-9	363	N/A in demo: 9=363
-9	364	N/A in demo: 9=364
-9	365	N/A in demo: 9=365
-9	366	N/A in demo: 9=366
-9	367	N/A in demo: 9=367
-9	368	N/A in demo: 9=368
-9	369	N/A in demo: 9=369
-9	370	N/A in demo: 9=370
-9	371	N/A in demo: 9=371
-9	372	N/A in demo: 9=372
-9	373	N/A in demo: 9=373
-9	374	N/A in demo: 9=374
-9	375	N/A in demo: 9=375
-9	376	N/A in demo: 9=376
-9	377	N/A in demo: 9=377
 9	378	((99+9)/9+9)*(9+9)
 9	379	9*99-((9+9)/9)[9]
 9	380	(99/9+9)*(9+9+9/9)
@@ -7561,81 +5896,6 @@
 9	450	9*(9*99+9)/(9+9)
 9	451	9*(99*9+99/9)/(9+9)
 9	452	9*(9*99+9)/(9+9)+(9+9)/9
-9	453	N/A in demo: 9=453
-9	454	N/A in demo: 9=454
-9	455	N/A in demo: 9=455
-9	456	N/A in demo: 9=456
-9	457	N/A in demo: 9=457
-9	458	N/A in demo: 9=458
-9	459	N/A in demo: 9=459
-9	460	N/A in demo: 9=460
-9	461	N/A in demo: 9=461
-9	462	N/A in demo: 9=462
-9	463	N/A in demo: 9=463
-9	464	N/A in demo: 9=464
-9	465	N/A in demo: 9=465
-9	466	N/A in demo: 9=466
-9	467	N/A in demo: 9=467
-9	468	N/A in demo: 9=468
-9	469	N/A in demo: 9=469
-9	470	N/A in demo: 9=470
-9	471	N/A in demo: 9=471
-9	472	N/A in demo: 9=472
-9	473	N/A in demo: 9=473
-9	474	N/A in demo: 9=474
-9	475	N/A in demo: 9=475
-9	476	N/A in demo: 9=476
-9	477	N/A in demo: 9=477
-9	478	N/A in demo: 9=478
-9	479	N/A in demo: 9=479
-9	480	N/A in demo: 9=480
-9	481	N/A in demo: 9=481
-9	482	N/A in demo: 9=482
-9	483	N/A in demo: 9=483
-9	484	N/A in demo: 9=484
-9	485	N/A in demo: 9=485
-9	486	N/A in demo: 9=486
-9	487	N/A in demo: 9=487
-9	488	N/A in demo: 9=488
-9	489	N/A in demo: 9=489
-9	490	N/A in demo: 9=490
-9	491	N/A in demo: 9=491
-9	492	N/A in demo: 9=492
-9	493	N/A in demo: 9=493
-9	494	N/A in demo: 9=494
-9	495	N/A in demo: 9=495
-9	496	N/A in demo: 9=496
-9	497	N/A in demo: 9=497
-9	498	N/A in demo: 9=498
-9	499	N/A in demo: 9=499
-9	500	N/A in demo: 9=500
-9	501	N/A in demo: 9=501
-9	502	N/A in demo: 9=502
-9	503	N/A in demo: 9=503
-9	504	N/A in demo: 9=504
-9	505	N/A in demo: 9=505
-9	506	N/A in demo: 9=506
-9	507	N/A in demo: 9=507
-9	508	N/A in demo: 9=508
-9	509	N/A in demo: 9=509
-9	510	N/A in demo: 9=510
-9	511	N/A in demo: 9=511
-9	512	N/A in demo: 9=512
-9	513	N/A in demo: 9=513
-9	514	N/A in demo: 9=514
-9	515	N/A in demo: 9=515
-9	516	N/A in demo: 9=516
-9	517	N/A in demo: 9=517
-9	518	N/A in demo: 9=518
-9	519	N/A in demo: 9=519
-9	520	N/A in demo: 9=520
-9	521	N/A in demo: 9=521
-9	522	N/A in demo: 9=522
-9	523	N/A in demo: 9=523
-9	524	N/A in demo: 9=524
-9	525	N/A in demo: 9=525
-9	526	N/A in demo: 9=526
-9	527	N/A in demo: 9=527
 9	528	9*(9*9-9)-999/9-9
 9	529	((9+9)/9)[9]+9+9-9/9
 9	530	((9+9)/9)[9]+9+9
@@ -7810,42 +6070,6 @@
 9	699	9*(9*9+9)-999/9
 9	700	9*9*9-9-9-99/9
 9	701	9*9*9-9-9-9-9/9
-9	702	N/A in demo: 9=702
-9	703	N/A in demo: 9=703
-9	704	N/A in demo: 9=704
-9	705	N/A in demo: 9=705
-9	706	N/A in demo: 9=706
-9	707	N/A in demo: 9=707
-9	708	N/A in demo: 9=708
-9	709	N/A in demo: 9=709
-9	710	N/A in demo: 9=710
-9	711	N/A in demo: 9=711
-9	712	N/A in demo: 9=712
-9	713	N/A in demo: 9=713
-9	714	N/A in demo: 9=714
-9	715	N/A in demo: 9=715
-9	716	N/A in demo: 9=716
-9	717	N/A in demo: 9=717
-9	718	N/A in demo: 9=718
-9	719	N/A in demo: 9=719
-9	720	N/A in demo: 9=720
-9	721	N/A in demo: 9=721
-9	722	N/A in demo: 9=722
-9	723	N/A in demo: 9=723
-9	724	N/A in demo: 9=724
-9	725	N/A in demo: 9=725
-9	726	N/A in demo: 9=726
-9	727	N/A in demo: 9=727
-9	728	N/A in demo: 9=728
-9	729	N/A in demo: 9=729
-9	730	N/A in demo: 9=730
-9	731	N/A in demo: 9=731
-9	732	N/A in demo: 9=732
-9	733	N/A in demo: 9=733
-9	734	N/A in demo: 9=734
-9	735	N/A in demo: 9=735
-9	736	N/A in demo: 9=736
-9	737	N/A in demo: 9=737
 9	738	9*9*9+9
 9	739	9*9*9+9+9/9
 9	740	9*9*9+99/9
@@ -7944,47 +6168,6 @@
 9	833	9*9*9-9+(999+9+9)/9
 9	834	9*9*9+99+9-(9+9+9)/9
 9	835	9*9*9+99+9-(9+9)/9
-9	836	N/A in demo: 9=836
-9	837	N/A in demo: 9=837
-9	838	N/A in demo: 9=838
-9	839	N/A in demo: 9=839
-9	840	N/A in demo: 9=840
-9	841	N/A in demo: 9=841
-9	842	N/A in demo: 9=842
-9	843	N/A in demo: 9=843
-9	844	N/A in demo: 9=844
-9	845	N/A in demo: 9=845
-9	846	N/A in demo: 9=846
-9	847	N/A in demo: 9=847
-9	848	N/A in demo: 9=848
-9	849	N/A in demo: 9=849
-9	850	N/A in demo: 9=850
-9	851	N/A in demo: 9=851
-9	852	N/A in demo: 9=852
-9	853	N/A in demo: 9=853
-9	854	N/A in demo: 9=854
-9	855	N/A in demo: 9=855
-9	856	N/A in demo: 9=856
-9	857	N/A in demo: 9=857
-9	858	N/A in demo: 9=858
-9	859	N/A in demo: 9=859
-9	860	N/A in demo: 9=860
-9	861	N/A in demo: 9=861
-9	862	N/A in demo: 9=862
-9	863	N/A in demo: 9=863
-9	864	N/A in demo: 9=864
-9	865	N/A in demo: 9=865
-9	866	N/A in demo: 9=866
-9	867	N/A in demo: 9=867
-9	868	N/A in demo: 9=868
-9	869	N/A in demo: 9=869
-9	870	N/A in demo: 9=870
-9	871	N/A in demo: 9=871
-9	872	N/A in demo: 9=872
-9	873	N/A in demo: 9=873
-9	874	N/A in demo: 9=874
-9	875	N/A in demo: 9=875
-9	876	N/A in demo: 9=876
 9	877	9*99-9-(99-9)/(9+9)
 9	878	9*99-(99+9+9)/9
 9	879	9*99-(99+9)/9
@@ -8051,49 +6234,6 @@
 9	940	9*99+(9*99-9)/(9+9)
 9	941	9*99+(9*99+9)/(9+9)
 9	942	9*(99+9+9)-999/9
-9	943	N/A in demo: 9=943
-9	944	N/A in demo: 9=944
-9	945	N/A in demo: 9=945
-9	946	N/A in demo: 9=946
-9	947	N/A in demo: 9=947
-9	948	N/A in demo: 9=948
-9	949	N/A in demo: 9=949
-9	950	N/A in demo: 9=950
-9	951	N/A in demo: 9=951
-9	952	N/A in demo: 9=952
-9	953	N/A in demo: 9=953
-9	954	N/A in demo: 9=954
-9	955	N/A in demo: 9=955
-9	956	N/A in demo: 9=956
-9	957	N/A in demo: 9=957
-9	958	N/A in demo: 9=958
-9	959	N/A in demo: 9=959
-9	960	N/A in demo: 9=960
-9	961	N/A in demo: 9=961
-9	962	N/A in demo: 9=962
-9	963	N/A in demo: 9=963
-9	964	N/A in demo: 9=964
-9	965	N/A in demo: 9=965
-9	966	N/A in demo: 9=966
-9	967	N/A in demo: 9=967
-9	968	N/A in demo: 9=968
-9	969	N/A in demo: 9=969
-9	970	N/A in demo: 9=970
-9	971	N/A in demo: 9=971
-9	972	N/A in demo: 9=972
-9	973	N/A in demo: 9=973
-9	974	N/A in demo: 9=974
-9	975	N/A in demo: 9=975
-9	976	N/A in demo: 9=976
-9	977	N/A in demo: 9=977
-9	978	N/A in demo: 9=978
-9	979	N/A in demo: 9=979
-9	980	N/A in demo: 9=980
-9	981	N/A in demo: 9=981
-9	982	N/A in demo: 9=982
-9	983	N/A in demo: 9=983
-9	984	N/A in demo: 9=984
-9	985	N/A in demo: 9=985
 9	986	999-(99+9+9)/9
 9	987	999-(99+9)/9
 9	988	999-99/9

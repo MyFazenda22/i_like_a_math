@@ -24,33 +24,18 @@ class SolutionDataSourceImpl extends SolutionDataSource {
   @override
   Future<SolutionModel> getSolution(int digit, int number) async {
     if(_allData.isEmpty) {
-      final rawData = await _loadAsset();
-      if (kDebugMode) { print("file size: ${rawData.length}"); }
-
-      // Готовим Map для всех цифр
-      for (int digit = 1; digit < 10; digit ++) {
-        final mapDigit = <int, String>{};
-        _allData[digit] = mapDigit;
-      }
-      final allLines = rawData.split('\n');
-      if (kDebugMode) { print("Number of lines: ${allLines.length}"); }
-
-      for (final oneLine in allLines) {
-        final rows = oneLine.trim().split('\t');
-        final digit = int.parse(rows[0]);
-        final number = int.parse(rows[1]);
-        final expression = rows[2];
-        _allData[digit]![number] = expression;
-      }
+      _allData.addAll(await _loadData());
     }
 
     if(!_allData.containsKey(digit)) {
-      throw DataSourceException("excDigitOutRange".tr(args: ["'$digit'"]));
+      throw DataSourceException("solutionNotAvailableInDemo".tr());
     }
+
     final mapDigit = _allData[digit]!;
     if(!mapDigit.containsKey(number)) {
-      throw DataSourceException("excNumberOutRange".tr(args: ["'$number'"]));
+      throw DataSourceException("solutionNotAvailableInDemo".tr());
     }
+
     String solution = mapDigit[number]!;
     final List<ExpressionElemModel> solutionElems = _parseExpressions(solution);
 
@@ -58,6 +43,7 @@ class SolutionDataSourceImpl extends SolutionDataSource {
     return model;
   }
 
+  /// Преобразование математических выражений из текста в список членов
   List<ExpressionElemModel> _parseExpressions(String solution) {
     final txt = solution.replaceAll("*", "\u00D7");
 
@@ -92,8 +78,31 @@ class SolutionDataSourceImpl extends SolutionDataSource {
     return elems;
   }
 
+  Future<Map<int, Map<int, String>>> _loadData() async {
+    final mapData = <int, Map<int, String>>{};
 
-  Future<String> _loadAsset() async {
+    final rawData = await loadAsset();
+    if (kDebugMode) { print("file size: ${rawData.length}"); }
+
+    // Готовим Map для всех цифр
+    for (int digit = 1; digit < 10; digit ++) {
+      final mapDigit = <int, String>{};
+      mapData[digit] = mapDigit;
+    }
+    final allLines = rawData.split('\n');
+    if (kDebugMode) { print("Number of lines: ${allLines.length}"); }
+
+    for (final oneLine in allLines) {
+      final rows = oneLine.trim().split('\t');
+      final digit = int.parse(rows[0]);
+      final number = int.parse(rows[1]);
+      final expression = rows[2];
+      mapData[digit]![number] = expression;
+    }
+    return mapData;
+  }
+
+  Future<String> loadAsset() async {
     if(context == null) {
       return await rootBundle.loadString(_dataFileName);
     } else {

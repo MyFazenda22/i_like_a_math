@@ -1,9 +1,7 @@
-
-
 import 'package:i_like_a_math/domain/entities/solution_entity.dart';
 
 class SolutionModel extends SolutionEntity {
-  SolutionModel({
+  const SolutionModel({
     required digit,
     required number,
     required solutionElems

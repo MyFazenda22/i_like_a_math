@@ -25,7 +25,6 @@ class SectionTitle extends StatelessWidget {
                 reversed: true,
                 child: const TintImage(imgPath: 'assets/buttons/rate-it.png', imgColor: 0xFF00F000),
               ),
-              // iconSize: 45,
               onPressed: () {},
             ),),
           Expanded(flex: 11,

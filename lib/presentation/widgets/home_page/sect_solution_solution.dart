@@ -1,24 +1,23 @@
-import 'dart:math';
+// ignore_for_file: curly_braces_in_flow_control_structures
 
+import 'dart:math';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:i_like_a_math/domain/entities/solution_entity.dart';
-
 import '../../../locator_service.dart';
 
-
 class Solution extends StatefulWidget {
-  final int number;
+  final bool hasSolution;
   final List<ExpressionElem> solutionElems;
   final Size parentSize;
-  const Solution({Key? key, required this.number, required this.solutionElems, required this.parentSize}) : super(key: key);
+  const Solution({Key? key, required this.hasSolution, required this.solutionElems, required this.parentSize}) : super(key: key);
 
   @override
   State<Solution> createState() => _SolutionState();
 }
 
 class _SolutionState extends State<Solution> with SingleTickerProviderStateMixin {
-  static const fontSizeNorm = 100.0;
+  static const fontSizeNorm = 95.0;
   static const fontSizeLevel1 = 0.6 * fontSizeNorm;
   static const fontSizeLevel2 = 0.4 * fontSizeNorm;
   static const paddingLevel1 = 0.5 * fontSizeNorm;
@@ -29,14 +28,14 @@ class _SolutionState extends State<Solution> with SingleTickerProviderStateMixin
   late final Animation<double> curve = CurvedAnimation(parent: _controller, curve: Curves.linear);
   late final Animation<int> animTextWrite;
 
-
   @override
   void initState() {
     final fontScale = _calcFullTextFontScale(widget.solutionElems, widget.parentSize);
 
-    textStyleNorm =  TextStyle(fontFamily: 'Rabiohead', fontSize: fontScale * fontSizeNorm  * 0.95, color: Colors.indigo,);
-    textStyleLevel1 = TextStyle(fontFamily: 'Rabiohead', fontSize: fontScale * fontSizeLevel1 * 0.95, color: Colors.indigo,);
-    textStyleLevel2 = TextStyle(fontFamily: 'Rabiohead', fontSize: fontScale * fontSizeLevel2 * 0.95, color: Colors.indigo,);
+    textStyleNorm = TextStyle(fontFamily: 'Rabiohead', fontSize: fontScale * fontSizeNorm, color: widget.hasSolution ? Colors.indigo : Colors.pink,);
+    textStyleLevel1 = textStyleNorm.copyWith(fontSize: fontScale * fontSizeLevel1);
+    textStyleLevel2 = textStyleNorm.copyWith(fontSize: fontScale * fontSizeLevel2);
+
     textPaddingLevel1 = EdgeInsets.only(bottom: paddingLevel1 * fontScale);
     textPaddingLevel2 = EdgeInsets.only(bottom: paddingLevel2 * fontScale);
 
@@ -47,13 +46,11 @@ class _SolutionState extends State<Solution> with SingleTickerProviderStateMixin
     animTextWrite = IntTween(begin: 1, end: fullTextLen).animate(_controller)
     ..addListener(() {
       setState(() {
-        // Вызываем для перисовки - вызова build
+        // Вызываем для перисовки (вызова build)
       });
     })
     ..addStatusListener((AnimationStatus status) {
-      // ignore: curly_braces_in_flow_control_structures
-      if (status == AnimationStatus.forward)        playAudio();
-      // ignore: curly_braces_in_flow_control_structures
+      if      (status == AnimationStatus.forward)   playAudio();
       else if (status == AnimationStatus.completed) stopAudio();
     });
     _controller.forward();
@@ -164,5 +161,4 @@ class _SolutionState extends State<Solution> with SingleTickerProviderStateMixin
     }
     return newElems;
   }
-
 }
